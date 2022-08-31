@@ -1,0 +1,35 @@
+\section{Problémy kvantové mechaniky}
+    \subsection{Problém měření}
+Kodaňská interpretace kvantové mechaniky má tři části: Schrödingerovu vlnovou rovnici, postulát o měření a Bornovo pravidlo.
+
+Schrödingerova vlnová rovnice popisuje změnu vlnové funkce v čase kromě procesu měření. Tento proces chápeme jako interakci vlnové funkce měřeného systému s jiným (měřícím) systé\-mem, která zanechá informaci o velikosti určité veličiny měřeného systému v měřícím systému. Když dojde k takové interakci, musíme použít postulát o měření aby stav naší vlnové funkce souhlasil s realitou.
+
+Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružnice. V úvodu jsem představil koncept vlnové funkce, používaný k vyjádření stavu kvantového systému. Tuto funkci můžeme v případě binárního 
+
+
+
+\begin{figure}[h]
+
+    \centering
+
+    \begin{tikzpicture}
+        % Define radius
+        \def\r{2}
+        % Define x of vector
+        \def\x{1.2}
+        % Define y of vector
+        \def\y{1.6}
+
+        % vector
+        \draw (0,0) node[circle,fill,inner sep=1] (orig) {} -- (\x,\y) node[circle,fill,inner sep=0.7,label=above:$\vec{a}$] (a) {};
+        \draw[dashed] (\x,0) node (x0) {$x_0$} -- (a)
+        
+        % Sphere
+        \draw (orig) circle (\r);
+        
+        % Axes
+        \draw[->] (orig) -- ++(\r,0) node[right] (x) {$x$};
+        \draw[->] (orig) -- ++(0,\r) node[above] (y) {$y$};
+    \end{tikzpicture}
+    \caption{\label{fig:3}}
+\end{figure}
