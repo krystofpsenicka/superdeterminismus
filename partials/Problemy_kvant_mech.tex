@@ -4,7 +4,7 @@ Kodaňská interpretace kvantové mechaniky má tři části: Schrödingerovu vl
 
 Schrödingerova vlnová rovnice popisuje změnu vlnové funkce v čase kromě procesu měření. Tento proces chápeme jako interakci vlnové funkce měřeného systému s jiným (měřícím) systé\-mem, která zanechá informaci o velikosti určité veličiny měřeného systému v měřícím systému. Když dojde k takové interakci, musíme použít postulát o měření aby stav naší vlnové funkce souhlasil s realitou.
 
-Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružnice. V úvodu jsem představil koncept vlnové funkce, používaný k vyjádření stavu kvantového systému. Tuto funkci můžeme v případě binárního 
+Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružnice. V úvodu jsem představil koncept vlnové funkce, používaný k vyjádření stavu kvantového systému. Tuto funkci můžeme, v případě kdy sledujeme binární veličinu kvantového systému, vyjádřit pomocí vektoru na jednotkové kružnici. 
 
 
 
@@ -21,15 +21,17 @@ Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružni
         \def\y{1.6}
 
         % vector
-        \draw (0,0) node[circle,fill,inner sep=1] (orig) {} -- (\x,\y) node[circle,fill,inner sep=0.7,label=above:$\vec{a}$] (a) {};
-        \draw[dashed] (\x,0) node (x0) {$x_0$} -- (a)
+        \draw (0,0) node[circle,fill,inner sep=1] (orig) {} -- (\x,\y) node[circle,fill,inner sep=0.7,label=above:$|\psi\rangle$] (a) {};
+        \draw [dashed] (\x, 0) node[below] (x0) {$x_0$} -- (\x, \y) node[] (a) {};
+        \draw [dashed] (0, \y) node[left] (y0) {$y_0$} -- (\x, \y) node[] (a) {};
+        
         
         % Sphere
         \draw (orig) circle (\r);
         
         % Axes
-        \draw[->] (orig) -- ++(\r,0) node[right] (x) {$x$};
-        \draw[->] (orig) -- ++(0,\r) node[above] (y) {$y$};
+        \draw[->] (-3, 0) -- (3,0) node[right] (x) {$x$};
+        \draw[->] (0, -3) -- (0,3) node[above] (y) {$y$};
     \end{tikzpicture}
     \caption{\label{fig:3}}
 \end{figure}
