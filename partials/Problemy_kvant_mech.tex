@@ -26,7 +26,7 @@ Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{
         \def\y{1.6}
 
         % vector
-        \draw[->, draw=red] (0,0) node[circle,fill,inner sep=1] (orig) {} -- (\x,\y) node[circle,fill,inner sep=0.7,label=above:$|\psi\rangle$] (a) {};
+        \draw[->,line width=0.6mm, draw=red] (0,0) node[circle,fill,inner sep=1] (orig) {} -- (\x,\y) node[circle,fill,inner sep=0.7,label=above:$|\psi\rangle$] (a) {};
         \draw [dashed] (\x, 0) node[below] (A) {$\alpha$} -- (\x, \y) node[] (a) {};
         \draw [dashed] (0, \y) node[left] (B) {$\beta$} -- (\x, \y) node[] (a) {};
         
@@ -109,7 +109,9 @@ Např. když budeme měřit stav qubitu a změříme ho ve stavu $\bm{|1\rangle}
     \caption{\label{fig:5}Promítnutí vektoru na osu změřeného výsledku.}
 \end{figure}
 
+Problém měření spočívá v tom, že Schrödingerova rovnice je lineární a jak víme, tak nezahrnuje proces měření, který s ní není kompatibilní, protože postulát o měření není jednotková operace, protože je nevratná, takže není lineární. Konkrétněji, když připravíme částici ve stavu $|\psi\rangle = |1\rangle$, změříme ji jako $|1\rangle$ a když ji připravíme ve stavu $|\psi\rangle = |0\rangle$, změříme ji jako $|1\rangle$. Podle lineárního evolučního zákonu bychom změřili částici připravenou v superpozici obou stavů $|\psi\rangle = \sqrt{\frac{1}{2}} |0\rangle + \sqrt{\frac{1}{2}} |1\rangle$ jako superpozici obou stavů, ale v realitě tuto částici změříme jako $|1\rangle$, nebo $|0\rangle$.
 
+Podle postulátu o měření se nástoje na měření nechovají podle Schrödingerovy rovnice. Aby kvatová mechanika tedy dávala smysl museli bychom opustit předpoklad redukcionizmu. Podle redukcionizmu se dá derivovat chování složitých systémů mnoha částic podle chování jejich konstituentů. Kdybychom opustili tento předpoklad museli bychom definovat hranici na které se redukcionizmus rozpadá.
 
 
 
