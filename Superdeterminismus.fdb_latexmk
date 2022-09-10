@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1662710495 "c:/škola/seminárka/latex/Superdeterminismus.tex" "Superdeterminismus.pdf" "Superdeterminismus" 1662710497
+["pdflatex"] 1662726607 "c:/škola/seminárka/latex/Superdeterminismus.tex" "Superdeterminismus.pdf" "Superdeterminismus" 1662727220
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1661950704 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1658310195 10329961 c2270e8b647f9311ce5faabd88781b4c ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -152,12 +152,12 @@
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/ucs/uni-global.def" 1368440143 1375 8a855db83af5d6753ccbbd32e6a8a901 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/ucs/utf8x.def" 1369148985 8240 21f7ac37aafb6cfeddbb196b8bfd6280 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Superdeterminismus.aux" 1662710496 1884 b5ac0635bcc639e87c9062c3c085434c "pdflatex"
-  "Superdeterminismus.toc" 1662710496 326 39fcdf03f4c94e26f959dab99cd36169 "pdflatex"
+  "Superdeterminismus.aux" 1662726611 1884 b5ac0635bcc639e87c9062c3c085434c "pdflatex"
+  "Superdeterminismus.toc" 1662726611 326 39fcdf03f4c94e26f959dab99cd36169 "pdflatex"
   "c:/škola/seminárka/latex/Superdeterminismus.tex" 1662200728 522 839870fc6282056e374025da138d2c0e ""
   "images/probability-function.png" 1658306023 150968 4341adaf7fcf018ec51d9bfb37ce61a4 ""
   "partials/Abstrakt.tex" 1661848896 771 5cc202b360796ded76a7c63511e594d2 ""
-  "partials/Problemy_kvant_mech.tex" 1662710493 7305 bf5a4aafbdacc47b6138608578dc5db7 ""
+  "partials/Problemy_kvant_mech.tex" 1662712203 7301 d0fb130a567a0fa4a90298be0a1aa486 ""
   "partials/Uvod.tex" 1661933031 8037 b8e45d5cd38e72fa036c9cf8493e1e7b ""
   (generated)
   "Superdeterminismus.aux"
