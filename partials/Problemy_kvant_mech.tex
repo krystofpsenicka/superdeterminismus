@@ -13,7 +13,7 @@ Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružni
 
 Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{\alpha^2 + \beta^2 = 1}$. Takto se také počítá absolutní hodnota vektoru $\bm{|\psi\rangle}$, která je tedy vždy 1. To znamená, že délka vektoru $\bm{|\psi\rangle}$ je vždy 1, a proto používáme jednotkovou kružnici. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
     \centering
 
@@ -43,11 +43,11 @@ Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{
 
 V praxi se používá Blochova sféra (jednotková sféra), jelikož koeficienty $\bm{\alpha}$ a $\bm{\beta}$ jsou komplexní čísla, která mají navíc imaginární rozměr, což znamená, že $\bm{|\psi\rangle}$ je trojrozměrný vektor. Nám k ilustraci postulátu o měření postačí 2 rozměry.
 
-Podle postulátu o měření máme při měření vektor $\bm{|\psi\rangle}$ aktualizovat promítnutím na osu změřeného výsledku a následně ho prodloužit zpět na délku 1.
+Podle postulátu o měření máme při měření vektor $\bm{|\psi\rangle}$ aktualizovat promítnutím na osu změře\-ného výsledku a následně ho prodloužit zpět na délku 1.
 
 Např. když budeme měřit stav qubitu a změříme ho ve stavu $\bm{|1\rangle}$, musíme vektor aktualizovat, aby správně popisoval reálný stav qubitu. V tomto případě musíme vektor promítnout na osu změřeného stavu (osu $\bm{|1\rangle}$) viz Obrázek \ref{fig:4}. Nakonec musíme aktualizovat pravděpodobnost prodloužením vektoru zpět na délku 1 viz Obrázek \ref{fig:5}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
     \centering
 
@@ -78,7 +78,7 @@ Např. když budeme měřit stav qubitu a změříme ho ve stavu $\bm{|1\rangle}
     \caption{\label{fig:4}Promítnutí vektoru na osu změřeného výsledku.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 
     \centering
 
@@ -106,7 +106,7 @@ Např. když budeme měřit stav qubitu a změříme ho ve stavu $\bm{|1\rangle}
         \draw[->] (-3, 0) -- (3,0) node[right] (|1>) {$|1\rangle$};
         \draw[->] (0, -3) -- (0,3) node[above] (|0>) {$|0\rangle$};
     \end{tikzpicture}
-    \caption{\label{fig:5}Promítnutí vektoru na osu změřeného výsledku.}
+    \caption{\label{fig:5}Prodloužení vektoru zpět na délku 1.}
 \end{figure}
 
 Problém měření spočívá v tom, že Schrödingerova rovnice je lineární a jak víme, nezahrnuje proces měření, který s ní není kompatibilní, protože postulát o měření není jednotková operace, protože je nevratná, takže není lineární. Konkrétněji, když připravíme částici ve stavu $|\psi\rangle = |1\rangle$, změříme ji jako $|1\rangle$ a když ji připravíme ve stavu $|\psi\rangle = |0\rangle$, změříme ji jako $|1\rangle$. Podle lineárního evolučního zákonu bychom změřili částici připravenou v superpozici obou stavů $|\psi\rangle = \sqrt{\frac{1}{2}} |0\rangle + \sqrt{\frac{1}{2}} |1\rangle$ jako superpozici obou stavů, ale v realitě tuto částici změříme jako $|1\rangle$, nebo $|0\rangle$.
