@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  11 SEP 2022 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  16 SEP 2022 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -439,12 +439,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -466,35 +466,59 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 
 ] (partials/Uvod.tex (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [3
+)
+Overfull \hbox (10.09996pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/m/n/12 Albert Ein-stein v^^Te^^Tril ve fy-zic-kou exis-tenci Planc-kov^^Sych kvant a ve vl-nov^^Te-korpuskul^^Sarn^^S^^P
+ []
+
+[3
 
 
 ]
-<images/probability-function.png, id=23, 162.63766pt x 105.69035pt>
+Overfull \hbox (40.49532pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 ve kter^^Se, podle Bor-nova pra-vi-dla, druh^^Sa moc-nina vl-nov^^Se funkce vy-jad^^Truje pravd^^Tepodobnostn^^S^^P
+ []
+
+
+Overfull \hbox (4.56752pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 dis-tribu^^Tcn^^S^^P funkce. Tato funkce vy-jad^^Truje pravd^^Tepodobnost pro ka^^Tzd^^Sy mo^^Tzn^^Sy v^^Sysledek
+ []
+
+<images/probability-function.png, id=17, 162.63766pt x 105.69035pt>
 File: images/probability-function.png Graphic file (type png)
 <use images/probability-function.png>
 Package pdftex.def Info: images/probability-function.png  used on input line 44.
 (pdftex.def)             Requested size: 250.0pt x 162.47495pt.
- [4 <./images/probability-function.png>]) (partials/Problemy_kvant_mech.tex [5]
-Overfull \hbox (2.32616pt too wide) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/10 Postul^^Sat o m^^Te^^Tren^^S^^P m^^Wu^^Tzeme jed-nodu^^Tse vysv^^Tetlit po-moc^^S^^P jed-not-kov^^Se kru^^Tznice. V ^^Suvodu jsem p^^Tredstavil
+[4 <./images/probability-function.png>]
+Overfull \hbox (12.06606pt too wide) in paragraph at lines 50--51
+\OT1/cmr/m/n/12 d^^Wusledkem lidsk^^Se ig-no-rance. Na-o-pak podle Kvan-tov^^Se me-cha-niky toto pravd^^Tepodobnost-
+ []
+
+
+Overfull \hbox (5.83318pt too wide) in paragraph at lines 56--57
+\OT1/cmr/m/n/12 nez^^Savislost (viz Rov-nice (2[]), n^^S^^P^^Tze) zna-men^^Sa, ^^Tze pravd^^Tepodobnostn^^S^^P dis-tri-buce skryt^^Sych
+ []
+
+) (partials/Problemy_kvant_mech.tex [5]
+Overfull \hbox (5.77307pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/n/12 re-duk-ci-o-ni-zmu. Podle re-duk-ci-o-ni-zmu se d^^Sa de-ri-vo-vat chov^^San^^S^^P slo^^Tzit^^Sych syst^^Sem^^Wu mnoha
  []
 
 [6
 
-]) [7] (Superdeterminismus.aux) ) 
+] [7]) [8] (Superdeterminismus.aux) ) 
 Here is how much of TeX's memory you used:
- 16704 strings out of 478338
- 326419 string characters out of 2836700
- 625064 words of memory out of 3000000
- 34817 multiletter control sequences out of 15000+600000
- 479553 words of font info for 63 fonts, out of 8000000 for 9000
+ 16708 strings out of 478338
+ 326505 string characters out of 2836700
+ 633457 words of memory out of 3000000
+ 34823 multiletter control sequences out of 15000+600000
+ 480468 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,89p,1058b,788s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Superdeterminismus.pdf (7 pages, 308364 bytes).
+<C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Superdeterminismus.pdf (8 pages, 282952 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
