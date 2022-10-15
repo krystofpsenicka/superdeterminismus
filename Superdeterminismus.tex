@@ -1,8 +1,15 @@
 \documentclass[a4paper, 12pt]{article}
 
 \usepackage[czech]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
 \usepackage{amsmath}
+
+%bibliography
+\usepackage{csquotes}
+\usepackage[backend = biber, sorting = nyt]{biblatex}
+\addbibresource{citations.bib}
 
 %bold math
 \usepackage{bm}
@@ -42,4 +49,7 @@
 % \input{partials/Abstrakt.tex}
 \input{partials/Uvod.tex}
 \input{partials/Problemy\_kvant\_mech.tex}
+\input{partials/Bellova\_nerovnost.tex}
+
+\printbibliography[title=Seznam použité literatury]
 \end{document}
