@@ -2,14 +2,46 @@
 
 \usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{textcomp}
+
+%for bib overfull hbox
+\usepackage{xurl}
+
+%math
 \usepackage{amsmath}
 
-%bibliography
+%biblatex bibliography
 \usepackage{csquotes}
-\usepackage[backend = biber, sorting = nyt]{biblatex}
+\usepackage[backend = biber, sorting = none, giveninits, citestyle = numeric, bibstyle = authoryear, defernumbers = true]{biblatex}
+\DeclareNameAlias{default}{family-given}
+%change url: to dostupné z
+\DeclareFieldFormat{url}{Dostupné z\space\url{#1}}
+%get rid of In: before journal title
+\renewbibmacro{in:}{}
+%change and to ampersand in authors
+\AtBeginBibliography{%
+  \renewcommand*{\finalnamedelim}{%
+    \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}%
+    \addcomma\addspace\&\space}%
+}
+%change order to author year and keep number cit
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+    \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
 \addbibresource{citations.bib}
+%for biblatex to work with inputenc
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
 
 %bold math
 \usepackage{bm}
@@ -51,5 +83,7 @@
 \input{partials/Problemy\_kvant\_mech.tex}
 \input{partials/Bellova\_nerovnost.tex}
 
-\printbibliography[title=Seznam použité literatury]
+
+\clearpage
+\input{partials/bib.tex}
 \end{document}

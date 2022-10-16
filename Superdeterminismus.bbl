@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{quantum}{book}{}
       \name{author}{1}{}{%
         {{hash=6ee0ce43c05ec7609e454e43c669d2b2}{%
@@ -26,6 +26,9 @@
            familyi={K\bibinitperiod},
            given={Manjit},
            giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Londýn}%
       }
       \list{publisher}{1}{%
         {Icon Books Ltd.}%
@@ -36,33 +39,104 @@
       \strng{authorbibnamehash}{6ee0ce43c05ec7609e454e43c669d2b2}
       \strng{authornamehash}{6ee0ce43c05ec7609e454e43c669d2b2}
       \strng{authorfullhash}{6ee0ce43c05ec7609e454e43c669d2b2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum: Einstein, Bohr, and the Great Debate about the Nature of Reality}
       \field{year}{2014}
       \field{dateera}{ce}
     \endentry
-    \entry{realismus}{misc}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+    \entry{measprob}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dd9161582dd1a1a395e916eaf78edf4c}{%
+           family={Hossenfelder},
+           familyi={H\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{fullhash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{bibnamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authorbibnamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authornamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authorfullhash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Philosophical realism}
+      \field{title}{The Problem with Quantum Measurement}
       \field{urlday}{15}
       \field{urlmonth}{10}
       \field{urlyear}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \verb https://www.youtube.com/watch?v=Be3HlA_9968
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \verb https://www.youtube.com/watch?v=Be3HlA_9968
+      \endverb
+      \keyw{ytvideo}
+    \endentry
+    \entry{unifprob}{article}{}
+      \name{author}{2}{}{%
+        {{hash=71beaa74dedf7cb5493999c3c988d480}{%
+           family={Abdeen},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Shameer},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=66c645032386e31be11aee1e7735f774}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi N.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IPSL}, Institute of Physics in Sri Lanka}%
+      }
+      \strng{namehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{fullhash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{bibnamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authorbibnamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authornamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authorfullhash}{09cd94bb44f9522362a6679e5764214e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IPSL}, Institute of Physics in Sri Lanka}
+      \field{title}{Incompatibility of General Relativity with Quantum Mechanics}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{57\bibrangedash 63}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://ipsl.lk/documents/TechSession/2013/ipsl13-09.pdf
+      \endverb
+      \verb{url}
+      \verb https://ipsl.lk/documents/TechSession/2013/ipsl13-09.pdf
       \endverb
     \endentry
     \entry{lokalita}{misc}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
       \field{labeltitlesource}{title}
       \field{title}{Principle of locality}
       \field{urlday}{15}
@@ -75,6 +149,29 @@
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Principle_of_locality
       \endverb
+      \keyw{intarticle}
+    \endentry
+    \entry{realismus}{misc}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical realism}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \endverb
+      \keyw{intarticle}
     \endentry
   \enddatalist
 \endrefsection

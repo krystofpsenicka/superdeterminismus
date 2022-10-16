@@ -1,14 +1,14 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'Superdeterminismus.blg'
-[198] biber-MSWIN64:340> INFO - === 
-[258] Biber.pm:418> INFO - Reading 'Superdeterminismus.bcf'
-[525] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
-[556] Biber.pm:4401> INFO - Processing section 0
-[578] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
-[651] bibtex.pm:1713> INFO - LaTeX decoding ...
-[659] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
-[723] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[723] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[723] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'cs-CZ'
-[736] bbl.pm:654> INFO - Writing 'Superdeterminismus.bbl' with encoding 'UTF-8'
-[738] bbl.pm:757> INFO - Output to Superdeterminismus.bbl
+[368] biber-MSWIN64:340> INFO - === 
+[460] Biber.pm:418> INFO - Reading 'Superdeterminismus.bcf'
+[785] Biber.pm:978> INFO - Found 5 citekeys in bib section 0
+[824] Biber.pm:4401> INFO - Processing section 0
+[853] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
+[945] bibtex.pm:1713> INFO - LaTeX decoding ...
+[963] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
+[1064] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1065] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1065] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[1081] bbl.pm:654> INFO - Writing 'Superdeterminismus.bbl' with encoding 'UTF-8'
+[1085] bbl.pm:757> INFO - Output to Superdeterminismus.bbl

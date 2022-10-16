@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  15 OCT 2022 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  16 OCT 2022 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -48,11 +48,12 @@ Package babel Info: Importing font and identification data for czech
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
@@ -96,7 +97,7 @@ LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count268
-\dotsspace@=\muskip16
+\dotsspace@=\muskip17
 \c@parentequation=\count269
 \dspbrk@lvl=\count270
 \tag@help=\toks19
@@ -164,9 +165,6 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \c@tabx@nest=\count282
 \c@listtotal=\count283
@@ -230,6 +228,10 @@ Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count328
@@ -337,10 +339,10 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count404
 )
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
+File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
@@ -386,7 +388,11 @@ Package biblatex Info: ... and expl3
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-)) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+)) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -636,20 +642,20 @@ Package csquotes Info: Redefining alias 'default' -> 'czech'.
  (Superdeterminismus.aux)
 \openout1 = `Superdeterminismus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 Package biblatex Info: Trying to load language 'czech'...
 Package biblatex Info: ... file 'czech.lbx' found.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\czech.lbx
@@ -663,8 +669,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Superdeterminismus.bbl' found.
  (Superdeterminismus.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count432
@@ -726,12 +732,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
  [2
 
-] (partials/Uvod.tex
-Overfull \hbox (9.34491pt too wide) in paragraph at lines 8--9
-[]\T1/cmr/m/n/12 Albert Ein-stein v¥-°il ve fy-zic-kou exis-tenci Planc-ko-vých kvant a ve vlnov¥-korpuskulární
- []
-
-[3
+] (partials/Uvod.tex [3
 
 
 ]
@@ -744,16 +745,12 @@ Package pdftex.def Info: images/probability-function.png  used on input line 46.
 
 ] [7] [8]) (partials/Bellova_nerovnost.tex [9]) [10
 
-]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 54.
+] (partials/bib.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (7.60847pt too wide) in paragraph at lines 54--54
-[]\T1/cmr/m/it/12 Philosophical re-a-lism\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/cmtt/m/n/12 https : / / en . wikipedia . org / wiki / Philosophical _
- []
+)) [11
 
-[11
 
 ] (Superdeterminismus.aux)
 Package logreq Info: Writing requests to 'Superdeterminismus.run.xml'.
@@ -761,17 +758,17 @@ Package logreq Info: Writing requests to 'Superdeterminismus.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23523 strings out of 478338
- 472037 string characters out of 2836700
- 1174580 words of memory out of 3000000
- 41555 multiletter control sequences out of 15000+600000
- 490073 words of font info for 80 fonts, out of 8000000 for 9000
+ 23614 strings out of 478338
+ 474307 string characters out of 2836700
+ 1177738 words of memory out of 3000000
+ 41638 multiletter control sequences out of 15000+600000
+ 489398 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,89p,1054b,1700s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Superdeterminismus.pdf (11 pages, 374157 bytes).
+ <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Superdeterminismus.pdf (11 pages, 389303 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
+ 487 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
