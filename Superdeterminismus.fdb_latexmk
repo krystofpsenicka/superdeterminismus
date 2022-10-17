@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Superdeterminismus"] 1665913188 "Superdeterminismus.bcf" "Superdeterminismus.bbl" "Superdeterminismus" 1665913201
-  "Superdeterminismus.bcf" 1665913201 106943 a09171dac38a634af41c775daf04c2f9 "pdflatex"
-  "citations.bib" 1665913187 1373 aadd603881a27b6f37293d04891ec0e3 ""
+["biber Superdeterminismus"] 1665917283 "Superdeterminismus.bcf" "Superdeterminismus.bbl" "Superdeterminismus" 1665918526
+  "Superdeterminismus.bcf" 1665918525 106938 9230fe8751c0b829b7b91c34329c0713 "pdflatex"
+  "citations.bib" 1665917177 2077 db7928add922540e5288e35eee1089b5 ""
   (generated)
   "Superdeterminismus.bbl"
   "Superdeterminismus.blg"
-["pdflatex"] 1665913197 "c:/škola/seminárka/latex/Superdeterminismus.tex" "Superdeterminismus.pdf" "Superdeterminismus" 1665913201
+["pdflatex"] 1665918520 "c:/škola/seminárka/latex/Superdeterminismus.tex" "Superdeterminismus.pdf" "Superdeterminismus" 1665918526
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1665912830 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1665827414 31952 a3ce515dcbffd8ea7a7933e6146049b3 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1665827411 40136 067fcf1061459eb161983db598d6f6ec ""
@@ -160,7 +160,7 @@
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-expl3.sty" 1657613115 8433 72f8188742e7214b7068f345cd0287ac ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.def" 1657613115 13919 5426dbe90e723f089052b4e908b56ef9 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def" 1657613115 32455 8d3e554836db11aab80a8e11be62e1b1 ""
-  "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.cbx" 1657613115 4578 2d37f6a8c72f47aacef79870545a713d ""
+  "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/authoryear.cbx" 1657613115 3976 2d46354b304f9bc8fda915fe9215de04 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/czech.lbx" 1657613115 33851 acde6face819f06506048273d73580c9 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.cfg" 1663133446 7068 06f8d141725d114847527a66439066b6 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.def" 1663133446 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
@@ -198,16 +198,16 @@
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641737540 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "Superdeterminismus.aux" 1665913201 3683 0734a877d36e246676d0977ec94aaa5a "pdflatex"
-  "Superdeterminismus.bbl" 1665913192 6335 5edb0b38816174b5a33728d73b4e2b98 "biber Superdeterminismus"
-  "Superdeterminismus.run.xml" 1665913201 2403 4ae9e693f470df0627b905964ad997ea "pdflatex"
-  "Superdeterminismus.tex" 1665913137 2136 4985988b04be6ea2147729ed759f3b45 ""
-  "Superdeterminismus.toc" 1665913201 670 19df2a817a462bbd40728542ac7ad55c "pdflatex"
-  "c:/škola/seminárka/latex/Superdeterminismus.tex" 1665913137 2136 4985988b04be6ea2147729ed759f3b45 ""
+  "Superdeterminismus.aux" 1665918525 4108 5ad55e6c18d3b5b2650e2085c634303c "pdflatex"
+  "Superdeterminismus.bbl" 1665917287 9886 63cc50bdd8f5353cabdc2d15bf85cd84 "biber Superdeterminismus"
+  "Superdeterminismus.run.xml" 1665918525 2406 d049885766bf11bd7c3a22a73a2d0a96 "pdflatex"
+  "Superdeterminismus.tex" 1665915853 2275 c351d30a4cbd9f590c1f5254e17d7328 ""
+  "Superdeterminismus.toc" 1665918525 670 19df2a817a462bbd40728542ac7ad55c "pdflatex"
+  "c:/škola/seminárka/latex/Superdeterminismus.tex" 1665915853 2275 c351d30a4cbd9f590c1f5254e17d7328 ""
   "images/probability-function.png" 1658306023 150968 4341adaf7fcf018ec51d9bfb37ce61a4 ""
-  "partials/Bellova_nerovnost.tex" 1665846311 2511 fd30d83ed0822d9603c45c05e2ef5d1f ""
-  "partials/Problemy_kvant_mech.tex" 1665857427 9671 41b21c9b9550f91575bb774130705d44 ""
-  "partials/Uvod.tex" 1665845611 8118 2448ea3ce77e1d5cef3671a1eff3eb04 ""
+  "partials/Bellova_nerovnost.tex" 1665918517 2527 bf3c20bad13c5efc7bcbdc8a9055e47f ""
+  "partials/Problemy_kvant_mech.tex" 1665916109 9615 1275dcef00d706e90a28026fdfdba8a0 ""
+  "partials/Uvod.tex" 1665916117 8092 a5e60417a75990fc8a3aae661cda1165 ""
   "partials/bib.tex" 1665859517 386 2194737200e75f94a5e2cea5d51d0ec8 ""
   (generated)
   "Superdeterminismus.aux"

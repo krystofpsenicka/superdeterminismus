@@ -21,11 +21,12 @@
   \datalist[entry]{none/global//global/global}
     \entry{quantum}{book}{}
       \name{author}{1}{}{%
-        {{hash=6ee0ce43c05ec7609e454e43c669d2b2}{%
+        {{un=0,uniquepart=base,hash=6ee0ce43c05ec7609e454e43c669d2b2}{%
            family={Kumar},
            familyi={K\bibinitperiod},
            given={Manjit},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Londýn}%
@@ -51,11 +52,12 @@
     \endentry
     \entry{measprob}{misc}{}
       \name{author}{1}{}{%
-        {{hash=dd9161582dd1a1a395e916eaf78edf4c}{%
+        {{un=0,uniquepart=base,hash=dd9161582dd1a1a395e916eaf78edf4c}{%
            family={Hossenfelder},
            familyi={H\bibinitperiod},
            given={Sabine},
-           giveni={S\bibinitperiod}}}%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
       }
       \list{organization}{1}{%
         {Youtube}%
@@ -66,8 +68,8 @@
       \strng{authorbibnamehash}{dd9161582dd1a1a395e916eaf78edf4c}
       \strng{authornamehash}{dd9161582dd1a1a395e916eaf78edf4c}
       \strng{authorfullhash}{dd9161582dd1a1a395e916eaf78edf4c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
       \field{labelnamesource}{author}
@@ -87,18 +89,21 @@
     \endentry
     \entry{unifprob}{article}{}
       \name{author}{2}{}{%
-        {{hash=71beaa74dedf7cb5493999c3c988d480}{%
+        {{un=0,uniquepart=base,hash=71beaa74dedf7cb5493999c3c988d480}{%
            family={Abdeen},
            familyi={A\bibinitperiod},
            given={M.\bibnamedelimi Shameer},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=66c645032386e31be11aee1e7735f774}{%
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66c645032386e31be11aee1e7735f774}{%
            family={Silva},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi N.\bibnamedelimi K.},
            giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
            prefix={de},
-           prefixi={d\bibinitperiod}}}%
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
       }
       \list{publisher}{1}{%
         {{IPSL}, Institute of Physics in Sri Lanka}%
@@ -109,8 +114,8 @@
       \strng{authorbibnamehash}{09cd94bb44f9522362a6679e5764214e}
       \strng{authornamehash}{09cd94bb44f9522362a6679e5764214e}
       \strng{authorfullhash}{09cd94bb44f9522362a6679e5764214e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -129,12 +134,98 @@
       \verb https://ipsl.lk/documents/TechSession/2013/ipsl13-09.pdf
       \endverb
     \endentry
+    \entry{bellineq}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=503402aea68454ee937e48491fa008df}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima Stewart},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{503402aea68454ee937e48491fa008df}
+      \strng{fullhash}{503402aea68454ee937e48491fa008df}
+      \strng{bibnamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authorbibnamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authornamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authorfullhash}{503402aea68454ee937e48491fa008df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics}
+      \field{title}{{On the Einstein Podolsky Rosen paradox}}
+      \field{volume}{1}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \field{pages}{195\bibrangedash 200}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/111654
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/111654
+      \endverb
+    \endentry
+    \entry{eprpar}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=29a34a00e610eaed35baff40f473278f}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d59186c1b85b3f8d68d260a37ffb83da}{%
+           family={Podolsky},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e8d4071d8f81779da7f6d13af0e080}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{fullhash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{bibnamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authorbibnamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authornamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authorfullhash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?}
+      \field{volume}{47}
+      \field{year}{1935}
+      \field{dateera}{ce}
+      \field{pages}{777\bibrangedash 780}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.47.777
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.47.777
+      \endverb
+    \endentry
     \entry{lokalita}{misc}{}
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
       \field{labeltitlesource}{title}
@@ -155,8 +246,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
       \field{labeltitlesource}{title}

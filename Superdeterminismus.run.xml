@@ -55,7 +55,7 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>authoryear.bbx</file>
-      <file>numeric.cbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>czech.lbx</file>
     </requires>

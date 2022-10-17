@@ -175,11 +175,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>init</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -385,11 +385,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>init</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -2351,13 +2351,13 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">quantum</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">quantum</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">measprob</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">measprob</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">unifprob</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">unifprob</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">lokalita</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">realismus</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">measprob</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">unifprob</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">bellineq</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">eprpar</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lokalita</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">realismus</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">bellineq</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

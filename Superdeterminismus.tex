@@ -11,8 +11,10 @@
 
 %biblatex bibliography
 \usepackage{csquotes}
-\usepackage[backend = biber, sorting = none, giveninits, citestyle = numeric, bibstyle = authoryear, defernumbers = true]{biblatex}
+\usepackage[backend = biber, sorting = none, giveninits, style = authoryear, defernumbers = true, uniquename = init]{biblatex}
 \DeclareNameAlias{default}{family-given}
+%add comma between author and year in citations
+\renewcommand*{\nameyeardelim}{\addcomma\space}
 %change url: to dostupné z
 \DeclareFieldFormat{url}{Dostupné z\space\url{#1}}
 %get rid of In: before journal title
@@ -24,20 +26,21 @@
     \addcomma\addspace\&\space}%
 }
 %change order to author year and keep number cit
-\defbibenvironment{bibliography}
-  {\list
-     {\printtext[labelnumberwidth]{%
-    \printfield{labelnumber}}}
-     {\setlength{\labelwidth}{\labelnumberwidth}%
-      \setlength{\leftmargin}{\labelwidth}%
-      \setlength{\labelsep}{\biblabelsep}%
-      \addtolength{\leftmargin}{\labelsep}%
-      \setlength{\itemsep}{\bibitemsep}%
-      \setlength{\parsep}{\bibparsep}}%
-      \renewcommand*{\makelabel}[1]{\hss##1}}
-  {\endlist}
-  {\item}
-
+% \defbibenvironment{bibliography}
+%   {\list
+%      {\printtext[labelnumberwidth]{%
+%     \printfield{labelnumber}}}
+%      {\setlength{\labelwidth}{\labelnumberwidth}%
+%       \setlength{\leftmargin}{\labelwidth}%
+%       \setlength{\labelsep}{\biblabelsep}%
+%       \addtolength{\leftmargin}{\labelsep}%
+%       \setlength{\itemsep}{\bibitemsep}%
+%       \setlength{\parsep}{\bibparsep}}%
+%       \renewcommand*{\makelabel}[1]{\hss##1}}
+%   {\endlist}
+%   {\item}
+%
+%add the bib file
 \addbibresource{citations.bib}
 %for biblatex to work with inputenc
 \usepackage[T1]{fontenc}
