@@ -5,8 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Problém unifikace}{8}{}%
 \contentsline {section}{\numberline {3}Bellova nerovnost}{10}{}%
 \contentsline {subsection}{\numberline {3.1}Bellovy testy}{10}{}%
-\contentsline {section}{Seznam použité literatury}{11}{}%
-\contentsline {subsection}{Knihy}{11}{}%
-\contentsline {subsection}{Videa}{11}{}%
-\contentsline {subsection}{Články}{11}{}%
-\contentsline {subsection}{Internetové články}{11}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Nepřesnosti v Bellových testech}{11}{}%
+\contentsline {section}{Seznam použité literatury}{13}{}%
+\contentsline {subsection}{Knihy}{13}{}%
+\contentsline {subsection}{Videa}{13}{}%
+\contentsline {subsection}{Články}{13}{}%
+\contentsline {subsection}{Internetové články}{14}{}%

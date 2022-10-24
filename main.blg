@@ -1,0 +1,16 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[202] biber-MSWIN64:340> INFO - === 
+[254] Biber.pm:418> INFO - Reading 'main.bcf'
+[432] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[475] Biber.pm:4401> INFO - Processing section 0
+[498] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
+[564] bibtex.pm:1713> INFO - LaTeX decoding ...
+[624] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
+[864] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[864] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[864] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[891] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[901] bbl.pm:757> INFO - Output to main.bbl
+[902] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[902] Biber.pm:132> INFO - WARNINGS: 1

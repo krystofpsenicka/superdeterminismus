@@ -1,0 +1,630 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{quantum}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ee0ce43c05ec7609e454e43c669d2b2}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Manjit},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Londýn}%
+      }
+      \list{publisher}{1}{%
+        {Icon Books Ltd.}%
+      }
+      \strng{namehash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \strng{fullhash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \strng{bibnamehash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \strng{authorbibnamehash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \strng{authornamehash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \strng{authorfullhash}{6ee0ce43c05ec7609e454e43c669d2b2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum: Einstein, Bohr, and the Great Debate about the Nature of Reality}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{measprob}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd9161582dd1a1a395e916eaf78edf4c}{%
+           family={Hossenfelder},
+           familyi={H\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{fullhash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{bibnamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authorbibnamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authornamehash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \strng{authorfullhash}{dd9161582dd1a1a395e916eaf78edf4c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Problem with Quantum Measurement}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=Be3HlA_9968
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=Be3HlA_9968
+      \endverb
+      \keyw{ytvideo}
+    \endentry
+    \entry{unifprob}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71beaa74dedf7cb5493999c3c988d480}{%
+           family={Abdeen},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Shameer},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66c645032386e31be11aee1e7735f774}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi N.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{IPSL}, Institute of Physics in Sri Lanka}%
+      }
+      \strng{namehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{fullhash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{bibnamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authorbibnamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authornamehash}{09cd94bb44f9522362a6679e5764214e}
+      \strng{authorfullhash}{09cd94bb44f9522362a6679e5764214e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IPSL}, Institute of Physics in Sri Lanka}
+      \field{title}{Incompatibility of General Relativity with Quantum Mechanics}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{57\bibrangedash 63}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://ipsl.lk/documents/TechSession/2013/ipsl13-09.pdf
+      \endverb
+      \verb{url}
+      \verb https://ipsl.lk/documents/TechSession/2013/ipsl13-09.pdf
+      \endverb
+    \endentry
+    \entry{bellineq}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=503402aea68454ee937e48491fa008df}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima Stewart},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{503402aea68454ee937e48491fa008df}
+      \strng{fullhash}{503402aea68454ee937e48491fa008df}
+      \strng{bibnamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authorbibnamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authornamehash}{503402aea68454ee937e48491fa008df}
+      \strng{authorfullhash}{503402aea68454ee937e48491fa008df}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Physique Fyzika}
+      \field{title}{{On the Einstein Podolsky Rosen paradox}}
+      \field{volume}{1}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \field{pages}{195\bibrangedash 200}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/111654
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/111654
+      \endverb
+    \endentry
+    \entry{eprpar}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=29a34a00e610eaed35baff40f473278f}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d59186c1b85b3f8d68d260a37ffb83da}{%
+           family={Podolsky},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e8d4071d8f81779da7f6d13af0e080}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{fullhash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{bibnamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authorbibnamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authornamehash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \strng{authorfullhash}{0d4a6a8d249279c2e8e4d3b157d92276}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?}
+      \field{volume}{47}
+      \field{year}{1935}
+      \field{dateera}{ce}
+      \field{pages}{777\bibrangedash 780}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.47.777
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.47.777
+      \endverb
+    \endentry
+    \entry{lokalita}{misc}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Principle of locality}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Principle_of_locality
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Principle_of_locality
+      \endverb
+      \keyw{intarticle}
+    \endentry
+    \entry{realismus}{misc}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical realism}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Philosophical_realism
+      \endverb
+      \keyw{intarticle}
+    \endentry
+    \entry{belltest}{misc}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Bell test}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Bell_test
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Bell_test
+      \endverb
+      \keyw{intarticle}
+    \endentry
+    \entry{belltest:1}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=30b6e93ef2f1a965b6441998747d78e0}{%
+           family={Freedman},
+           familyi={F\bibinitperiod},
+           given={Stuart\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=362395d3270883cd4f3570714653e154}{%
+           family={Clauser},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \strng{fullhash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \strng{bibnamehash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \strng{authorbibnamehash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \strng{authornamehash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \strng{authorfullhash}{9b1d2ca63b2f63d788e32bde66ae5ee0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Experimental Test of Local Hidden Variable Theories}
+      \field{volume}{28}
+      \field{year}{1972}
+      \field{dateera}{ce}
+      \field{pages}{938\bibrangedash 841}
+      \range{pages}{-96}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.28.938
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.28.938
+      \endverb
+    \endentry
+    \entry{det.efficiency}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da2f253d102a5a03c3de420e8bfdfc8e}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Anupam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5f10f77e7a1e023c7eacaca5e364c2c}{%
+           family={Mermin},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \strng{fullhash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \strng{bibnamehash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \strng{authorbibnamehash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \strng{authornamehash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \strng{authorfullhash}{f4e27bf123f4a5e2fa8acd980f8cdc51}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review D (Particles and Fields)}
+      \field{title}{{Detector inefficiencies in the Einstein-Podolsky-Rosen experiment}}
+      \field{volume}{35}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{pages}{3831\bibrangedash 3835}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.35.3831
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.35.3831
+      \endverb
+    \endentry
+    \entry{belltest:2001}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08269c53d2c1f67b537249968e3c496b}{%
+           family={Rowe},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba25dccbe77d9b2ceb3300167837dff1}{%
+           family={Kielpinski},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0457ad5b5db49b4e7a3506d93f917e21}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da910be26488e0eb5e810c337ba347fe}{%
+           family={Sackett},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4539bd748af41832d08db3384e7af341}{%
+           family={Itano},
+           familyi={I\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f63b54c41d1796778590896efd910a0d}
+      \strng{fullhash}{fd6fb6fef6d3db15bddd1f071e240826}
+      \strng{bibnamehash}{f63b54c41d1796778590896efd910a0d}
+      \strng{authorbibnamehash}{f63b54c41d1796778590896efd910a0d}
+      \strng{authornamehash}{f63b54c41d1796778590896efd910a0d}
+      \strng{authorfullhash}{fd6fb6fef6d3db15bddd1f071e240826}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6822}
+      \field{journaltitle}{Nature}
+      \field{title}{Experimental violation of a Bell's inequality with efficient detection}
+      \field{volume}{409}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{791\bibrangedash 794}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/35057215
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/35057215
+      \endverb
+    \endentry
+    \entry{belltest:2}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8c9fa133a0a3a13c45c38760904ddaf9}{%
+           family={Aspect},
+           familyi={A\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9225759166c7a0a7cf7d85d74a2231d}{%
+           family={Dalibard},
+           familyi={D\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7044473b65ee3e657a773c61598216ed}{%
+           family={Roger},
+           familyi={R\bibinitperiod},
+           given={Gérard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \strng{fullhash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \strng{bibnamehash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \strng{authorbibnamehash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \strng{authornamehash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \strng{authorfullhash}{f8457c2afeee3d4d010fb4e6a26a724a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Experimental Test of Bell's Inequalities Using Time-Varying Analyzers}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \field{pages}{1804\bibrangedash 1807}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.1804
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.1804
+      \endverb
+    \endentry
+    \entry{measloop:1}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=288a0f1aced2dcf6afd1437337ca2e37}{%
+           family={{Barrett}},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8453baf43fca78296b7521bbbab39da2}{%
+           family={{Collins}},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03c4c5f3544b02f003a35effb3edb1ab}{%
+           family={{Hardy}},
+           familyi={H\bibinitperiod},
+           given={Lucien},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7aa48f0678b0467d4b36779731fa902}{%
+           family={{Kent}},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e3d741bd6b9b760e9ff6df26cf0f263}{%
+           family={{Popescu}},
+           familyi={P\bibinitperiod},
+           given={Sandu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d754ee71e835aca872ba9ec6cbb921d8}
+      \strng{fullhash}{25bc7c229b99b27ef14f08ce77345ecb}
+      \strng{bibnamehash}{d754ee71e835aca872ba9ec6cbb921d8}
+      \strng{authorbibnamehash}{d754ee71e835aca872ba9ec6cbb921d8}
+      \strng{authornamehash}{d754ee71e835aca872ba9ec6cbb921d8}
+      \strng{authorfullhash}{25bc7c229b99b27ef14f08ce77345ecb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Physical Review A}
+      \field{title}{Quantum nonlocality, Bell inequalities, and the memory loophole}
+      \field{volume}{66}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{042111}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/0205016v3
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/0205016v3
+      \endverb
+    \endentry
+    \entry{measloop:2}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ca287104db122897c956e0e8a767005}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ca287104db122897c956e0e8a767005}
+      \strng{fullhash}{7ca287104db122897c956e0e8a767005}
+      \strng{bibnamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authorbibnamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authornamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authorfullhash}{7ca287104db122897c956e0e8a767005}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Statistics and Applications: Festschrift for Constance van Eeden}
+      \field{title}{Accardi contra Bell (cum mundi): The Impossible Coupling}
+      \field{volume}{42}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{133\bibrangedash 154}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/0110137
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/0110137
+      \endverb
+    \endentry
+    \entry{measloop:3}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ca287104db122897c956e0e8a767005}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ca287104db122897c956e0e8a767005}
+      \strng{fullhash}{7ca287104db122897c956e0e8a767005}
+      \strng{bibnamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authorbibnamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authornamehash}{7ca287104db122897c956e0e8a767005}
+      \strng{authorfullhash}{7ca287104db122897c956e0e8a767005}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv e-prints}
+      \field{title}{Time, Finite Statistics, and Bell's Fifth Position}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/0301059v2
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/0301059v2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
