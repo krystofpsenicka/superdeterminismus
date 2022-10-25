@@ -6,8 +6,14 @@
 \contentsline {section}{\numberline {3}Bellova nerovnost}{10}{}%
 \contentsline {subsection}{\numberline {3.1}Bellovy testy}{10}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Nepřesnosti v Bellových testech}{11}{}%
-\contentsline {section}{Seznam použité literatury}{13}{}%
-\contentsline {subsection}{Knihy}{13}{}%
-\contentsline {subsection}{Videa}{13}{}%
-\contentsline {subsection}{Články}{13}{}%
-\contentsline {subsection}{Internetové články}{14}{}%
+\contentsline {section}{\numberline {4}Superdeterminismus}{13}{}%
+\contentsline {subsection}{\numberline {4.1}Definující vlastnosti}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Psi-epistemická}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Deterministická}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Lokální}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Porušení Statistické Nezávislosti}{13}{}%
+\contentsline {section}{Seznam použité literatury}{14}{}%
+\contentsline {subsection}{Knihy}{14}{}%
+\contentsline {subsection}{Videa}{14}{}%
+\contentsline {subsection}{Články}{14}{}%
+\contentsline {subsection}{Internetové články}{15}{}%

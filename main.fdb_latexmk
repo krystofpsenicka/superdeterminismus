@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1666604156 "main.bcf" "main.bbl" "main" 1666604171
-  "citations.bib" 1666602677 4822 fc40406a65b86cb76128f9ef4ada3a17 ""
-  "main.bcf" 1666604171 107728 485a55f6923b9abd5008cecd782a2aed "pdflatex"
+["biber main"] 1666696152 "main.bcf" "main.bbl" "main" 1666696747
+  "citations.bib" 1666695689 5678 746795ee26fc7b102b57eecef6659c88 ""
+  "main.bcf" 1666696746 107872 bbdbea6914097d6b9d5a02227a757ff5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1666604168 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1666604171
+["pdflatex"] 1666696743 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1666696747
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1665912830 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1665827414 31952 a3ce515dcbffd8ea7a7933e6146049b3 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1665827411 40136 067fcf1061459eb161983db598d6f6ec ""
@@ -200,17 +200,18 @@
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/kryst/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641737540 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "c:/škola/seminárka/latex/main.tex" 1666509886 2432 39c08c4f464b64f4da89dab5e5d4af90 ""
+  "c:/škola/seminárka/latex/main.tex" 1666604518 2473 13a4382f2c746816552dd9bdf5ec3e25 ""
   "images/Two_channel.png" 1666509931 24606 938bf8e07aaa1dcdbf02fc58166debc1 ""
   "images/probability-function.png" 1658306023 150968 4341adaf7fcf018ec51d9bfb37ce61a4 ""
-  "main.aux" 1666604171 6682 f1f4ad6468de6eae2666d9f35a949451 "pdflatex"
-  "main.bbl" 1666604160 24245 e904eaa6d28a33f0ded51aa09ec3d0d9 "biber main"
-  "main.run.xml" 1666604171 2308 59b4200a58c736eb4717279760849eff "pdflatex"
-  "main.tex" 1666509886 2432 39c08c4f464b64f4da89dab5e5d4af90 ""
-  "main.toc" 1666604171 761 30c882e1893662eba59ddc3092160d4e "pdflatex"
-  "partials/Bellova_nerovnost.tex" 1666604139 7694 2a7565ab55c228b78edfc61ea6705020 ""
-  "partials/Problemy_kvant_mech.tex" 1666601378 9638 ffd6a68a029cd1e57e903619c51794cd ""
-  "partials/Uvod.tex" 1666511317 8092 d14e408a4a8ce99c847a8a7c8c9cd1a9 ""
+  "main.aux" 1666696746 7912 34c5b401be31343a209418f9fc2a416f "pdflatex"
+  "main.bbl" 1666696155 27372 eb5a9961a88e00eaa5fe4b536070f626 "biber main"
+  "main.run.xml" 1666696746 2308 59b4200a58c736eb4717279760849eff "pdflatex"
+  "main.tex" 1666604518 2473 13a4382f2c746816552dd9bdf5ec3e25 ""
+  "main.toc" 1666696746 1213 2f2eab9fa619e35da6871274510482ad "pdflatex"
+  "partials/Bellova_nerovnost.tex" 1666696737 7994 d773b0821ffeeb933cd488ced0676f1f ""
+  "partials/Problemy_kvant_mech.tex" 1666693841 9634 b77c2285fd6c7bccc3ccfb72375ced6e ""
+  "partials/Superdeterminismus.tex" 1666696713 999 79f571d3fe264c5b5b3f2e5f2342934b ""
+  "partials/Uvod.tex" 1666605198 8097 84b2c1fa70a2c011a290102a65982373 ""
   "partials/bib.tex" 1665859517 386 2194737200e75f94a5e2cea5d51d0ec8 ""
   (generated)
   "main.aux"

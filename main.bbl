@@ -624,6 +624,82 @@
       \verb https://arxiv.org/abs/quant-ph/0301059v2
       \endverb
     \endentry
+    \entry{supdet:rethink}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd9161582dd1a1a395e916eaf78edf4c}{%
+           family={Hossenfelder},
+           familyi={H\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd1fcbc50742e1af5ab924f10b59d59}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96082753988e753e750c1b719205e6c1}
+      \strng{fullhash}{96082753988e753e750c1b719205e6c1}
+      \strng{bibnamehash}{96082753988e753e750c1b719205e6c1}
+      \strng{authorbibnamehash}{96082753988e753e750c1b719205e6c1}
+      \strng{authornamehash}{96082753988e753e750c1b719205e6c1}
+      \strng{authorfullhash}{96082753988e753e750c1b719205e6c1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{title}{Rethinking Superdeterminism}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://doi.org/10.3389%2Ffphy.2020.00139
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3389%2Ffphy.2020.00139
+      \endverb
+    \endentry
+    \entry{belltest:violation}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fcebd77354ede40cd9d40cf8f6c19236}{%
+           family={Garisto},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Scientific American}%
+      }
+      \strng{namehash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \strng{fullhash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \strng{bibnamehash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \strng{authorbibnamehash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \strng{authornamehash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \strng{authorfullhash}{fcebd77354ede40cd9d40cf8f6c19236}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Universe Is Not Locally Real, and the Physics Nobel Prize Winners Proved It}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/the-universe-is-not-locally-real-and-the-physics-nobel-prize-winners-proved-it/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/the-universe-is-not-locally-real-and-the-physics-nobel-prize-winners-proved-it/
+      \endverb
+      \keyw{intarticle}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

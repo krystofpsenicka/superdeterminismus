@@ -822,6 +822,10 @@ INPUT .\images\Two_channel.png
 INPUT .\images\Two_channel.png
 INPUT .\images\Two_channel.png
 INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
+INPUT .\partials\Superdeterminismus.tex
+INPUT partials\Superdeterminismus.tex
+INPUT .\partials\Superdeterminismus.tex
+INPUT partials\Superdeterminismus.tex
 INPUT .\partials\bib.tex
 INPUT partials\bib.tex
 INPUT .\partials\bib.tex
