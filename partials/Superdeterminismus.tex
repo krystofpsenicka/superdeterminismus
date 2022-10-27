@@ -5,10 +5,51 @@
 Superdeterministické modely jsou Psi-epistemické, deterministické, lokální modely skrytých proměnných, které porušují Statistickou Nezávislost a nemusí být nutně realistické.
 
 \subsubsection{Psi-epistemická}
+Podle Psi-epistemické teorie vlnová funkce Schrödingerovy rovnice (Psi, $|\psi|$) neodpovídá přímo vlastnosti nějakého systému v reálném světě. Kodaňská interpretace Kvantové mechaniky je Psi-epistemická, protože považuje vlnovou funkci pouze jako reprezentaci znalostí o stavu systému.
+
+Opakem je Psi-ontická teorie, která bere vlnovou funkci jako fundamentální část reálného světa.
+
+Superdeterministické teorie jsou Psi-epistemické v tom smyslu, že vlnová funkce je průměrná pravděpodobnostní reprezentace přesných veličin systému, popsaných hlubší teorií.
+
+Vlnová funkce odvozená ze superdeterministické teorie by se měla řídit dosud ověřenými evolučními zákony Kvantové mechaniky. Smysl hledání takové teorie je tedy vytváření předpovědí nad rámec Kvantové mechaniky.
 
 \subsubsection{Deterministická}
+Roku 1814 formuloval matematik Pierre-Simon de Laplace myšlenku deterministického vesmíru pomocí Laplaceova démona \parencite{laplace:demon}. Podle determinismu, by bytost (démon) znající pozici a momentum každé částice ve vesmíru a mající dostatečnou výpočetní sílu mohla pomocí fundamentálních zákonů přírody vypočítat minulost i budoucnost každé částice. Vše je předurčené, evoluce každé částice je dána přírodními zákony.
 
-\subsubsection{Lokální}
+Determinismem myslíme, že evoluční zákon teorie jednoznačně mapuje stavy systému v čase \textbf{\emph{t}} na stavy v čase \textbf{\emph{t'}} pro libovolné \textbf{\emph{t}} a \textbf{\emph{t'}}.
+
+Jelikož Kvantová mechanika není deterministická, musí deterministická teorie reprodukující Kvantovou mechaniku obsahovat skryté proměnné. Skryté proměnné, nadále kolektivně označované $\bm{\lambda}$, obsahují všechny informace potřebné k určení výsledku měření kromě \uv{neskrytých} proměnných, které jsou obsaženy v přípravě stavu systému.
+
+Je důležité poznamenat, že tyto skryté proměnné nejsou vlastní pro, nebo lokalizované v měřeném systému. Představme si kluka jménem Nikolaj, který má na mysli dvě otázky: Jaká je moje hmotnost? a Zvládnu úspěšně udělat maturitní zkoušky? V deterministickém vesmíru se odpovědi na obě otázky nacházejí v současném stavu vesmíru, ale jejich dostupnost je velmi odlišná. Informace o hmotnosti Nikolaje se vyskytuje lokálně v něm samotném, zatímco informace o jeho úspěšnosti na maturitní zkoušce je rozložena po většině prostoru současné chvíle.
+
+\subsubsection{Lokální} Lokalitou v Superdeterminismu exkluzivně myslíme Kontinuitu Působení (dále jen KoP). KoP znamená, že k přesunutí informace z jedné oblasti časoprostoru do jiné, oddělené oblasti, musí tyto informace být přítomné na jakémkoliv uzavřeném (3dimenzionálním) povrchu obklopujícím první oblast.
+
+
+\begin{figure}[ht]
+
+    \centering
+
+    \begin{tikzpicture}
+        % S
+        \draw (2, 3) circle (0.8);
+        \draw (2, 3) circle (0.65);
+        
+        %1
+        \draw (2, 3) node  (1) {$1$};
+        \draw (2, 3) circle (0.3);
+        
+        %2
+        \draw (4, 3.3) node  (2) {$2$};
+        \draw (4, 3.3) circle (0.3);
+        
+        
+        % Axes
+        \draw[->] (0, 0) -- (7,0) node[below] (x,y,z) {$x,y,z$};
+        \draw[->] (0, 0) -- (0,7) node[left] (t) {$t$};
+    \end{tikzpicture}
+    \caption{\label{fig:7}Kontinuita Působení.}
+\end{figure}
+
 
 \subsubsection{Porušení Statistické Nezávislosti}
 Korelace mezi propletenými částicemi v našem vesmíru porušují Bellovu nerovnost. Porušení této nerovnosti poukazuje na chybnost alespoň jednoho z předpokladů, potřebných k odvození Bellovy nerovnosti. Většinou je porušení Bellovy nerovnosti interpretováno jako důkaz nemožnosti lokálně realistické teorie \parencite{belltest:violation}. Tato interpretace nás nutí k výběru mezi lokalitou a realismem. K derivaci Bellovy nerovnosti je ale zapotřebí ještě předpoklad Statistické Nezávislosti.

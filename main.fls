@@ -1,4 +1,4 @@
-PWD c:\škola\seminárka\latex
+PWD C:\škola\seminárka\latex
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\škola\seminárka\latex\main.tex
 OUTPUT main.log
@@ -826,6 +826,7 @@ INPUT .\partials\Superdeterminismus.tex
 INPUT partials\Superdeterminismus.tex
 INPUT .\partials\Superdeterminismus.tex
 INPUT partials\Superdeterminismus.tex
+INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
 INPUT .\partials\bib.tex
 INPUT partials\bib.tex
 INPUT .\partials\bib.tex
@@ -840,6 +841,8 @@ INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
+INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk

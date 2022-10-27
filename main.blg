@@ -1,16 +1,16 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[161] biber-MSWIN64:340> INFO - === 
-[218] Biber.pm:418> INFO - Reading 'main.bcf'
-[394] Biber.pm:978> INFO - Found 17 citekeys in bib section 0
-[416] Biber.pm:4401> INFO - Processing section 0
-[432] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
-[494] bibtex.pm:1713> INFO - LaTeX decoding ...
-[522] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
-[669] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[669] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[669] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
-[692] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[706] bbl.pm:757> INFO - Output to main.bbl
-[707] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[707] Biber.pm:132> INFO - WARNINGS: 1
+[342] biber-MSWIN64:340> INFO - === 
+[420] Biber.pm:418> INFO - Reading 'main.bcf'
+[746] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[798] Biber.pm:4401> INFO - Processing section 0
+[828] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
+[928] bibtex.pm:1713> INFO - LaTeX decoding ...
+[996] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
+[1290] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1291] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1291] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[1334] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1357] bbl.pm:757> INFO - Output to main.bbl
+[1358] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1358] Biber.pm:132> INFO - WARNINGS: 1
