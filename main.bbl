@@ -686,6 +686,48 @@
       \endverb
       \keyw{intarticle}
     \endentry
+    \entry{CoA}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a62b73ad6d2615a2683d73db07cbd55}{%
+           family={Wharton},
+           familyi={W\bibinitperiod},
+           given={K.\bibnamedelimi B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0117f0712ecf9eec9a506bc176372aef}{%
+           family={Argaman},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{180b1381021952e411515f6e538728ef}
+      \strng{fullhash}{180b1381021952e411515f6e538728ef}
+      \strng{bibnamehash}{180b1381021952e411515f6e538728ef}
+      \strng{authorbibnamehash}{180b1381021952e411515f6e538728ef}
+      \strng{authornamehash}{180b1381021952e411515f6e538728ef}
+      \strng{authorfullhash}{180b1381021952e411515f6e538728ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{title}{Colloquium: Bell's theorem and locally mediated reformulations of quantum mechanics}
+      \field{volume}{92}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{021002}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.92.021002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.92.021002
+      \endverb
+    \endentry
     \entry{belltest:violation}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fcebd77354ede40cd9d40cf8f6c19236}{%

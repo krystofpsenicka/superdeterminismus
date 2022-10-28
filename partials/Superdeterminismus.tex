@@ -22,8 +22,10 @@ Jelikož Kvantová mechanika není deterministická, musí deterministická teor
 
 Je důležité poznamenat, že tyto skryté proměnné nejsou vlastní pro, nebo lokalizované v měřeném systému. Představme si kluka jménem Nikolaj, který má na mysli dvě otázky: Jaká je moje hmotnost? a Zvládnu úspěšně udělat maturitní zkoušky? V deterministickém vesmíru se odpovědi na obě otázky nacházejí v současném stavu vesmíru, ale jejich dostupnost je velmi odlišná. Informace o hmotnosti Nikolaje se vyskytuje lokálně v něm samotném, zatímco informace o jeho úspěšnosti na maturitní zkoušce je rozložena po většině prostoru současné chvíle.
 
-\subsubsection{Lokální} Lokalitou v Superdeterminismu exkluzivně myslíme Kontinuitu Působení (dále jen KoP). KoP znamená, že k přesunutí informace z jedné oblasti časoprostoru do jiné, oddělené oblasti, musí tyto informace být přítomné na jakémkoliv uzavřeném (3dimenzionálním) povrchu obklopujícím první oblast.
+\subsubsection{Lokální}
+(Zpracováno podle článku \cite{CoA})
 
+Lokalitou v Superdeterminismu exkluzivně myslíme Kontinuitu Působení (dále jen KoP). Zvažme oddělené časoprostorové oblasti $\bm{1}$ a $\bm{2}$ (viz Obrázek \ref{fig:7}), přičemž $\bm{1}$ je obklopena \uv{zastiňovací} oblastí $\bm{S}$. $\bm{S}$ není pouze prostorovou oblastí, zahrnuje budoucnost i minulost oblasti $\bm{1}$ a zároveň i její prostorový rozsah (v dimenzích $\bm{x,y,z}$).
 
 \begin{figure}[ht]
 
@@ -31,24 +33,147 @@ Je důležité poznamenat, že tyto skryté proměnné nejsou vlastní pro, nebo
 
     \begin{tikzpicture}
         % S
-        \draw (2, 3) circle (0.8);
-        \draw (2, 3) circle (0.65);
+        \draw (2, 4) circle (1.3);
+        \draw (2, 4) circle (1);
+
+        \draw[<-] (3.15, 4) -- (4, 3) node[below] (S) {$S$};
         
         %1
-        \draw (2, 3) node  (1) {$1$};
-        \draw (2, 3) circle (0.3);
+        \draw (2, 4) node  (1) {$1$};
+        \draw (2, 4) circle (0.5);
         
         %2
-        \draw (4, 3.3) node  (2) {$2$};
-        \draw (4, 3.3) circle (0.3);
+        \draw (5.5, 3) node  (2) {$2$};
+        \draw (5.5, 3) circle (0.5);
         
         
         % Axes
         \draw[->] (0, 0) -- (7,0) node[below] (x,y,z) {$x,y,z$};
         \draw[->] (0, 0) -- (0,7) node[left] (t) {$t$};
     \end{tikzpicture}
-    \caption{\label{fig:7}Kontinuita Působení.}
+    \caption{\label{fig:7}Kontinuita Působení zobrazená v časoprostorovém diagramu. $t$ je časová osa a $x,y,z$ je prostorová osa, znázorňující všechny 3 prostorové dimenze.}
 \end{figure}
+
+Matematický model porušuje KoP, pokud dovoluje \uv{působení na dálku}, tzn. pokud změny ve $\bm{2}$ souvisejí se změnami v $\bm{1}$, aniž by souvisely se změnami uvnitř $\bm{S}$. $\bm{S}$ je jakási kontrolovací oblast pro KoP. Jestliže se nějaká informace dostane z $\bm{1}$ do $\bm{2}$, musí se také nacházet v $\bm{S}$, aby model dodržoval KoP. Aby model s kohoutkem ve $\bm{2}$ a korelovanou fontánou v $\bm{1}$ splňoval KoP, musí obsahovat popis zprostředkujících parametrů (Např. tok vody trubkami mezi kohoutkem a fontánou) v přechodné zastiňovací oblasti $\bm{S}$. V takovém modelu jsou při znalosti všech parametrů v $\bm{S}$ dodatečné informace z $\bm{2}$ zbytečné k předpovědi budoucího vývoje $\bm{1}$.
+
+Matematicky můžeme KoP vyjádřit rovnicí \ref{eq:7}. $\bm{I_{1}}$ a $\bm{I_{2}}$ představují množiny všech vstupů v oblastech $\bm{1}$ a $\bm{2}$ postupně. $\bm{Q_{1}}$, $\bm{Q_{2}}$ a $\bm{Q_{S}}$ označují nevstupní parametry v odpovídající oblasti.
+
+\begin{equation}
+    \bm{P_{I_{1},I_{2}}(Q_{1}|Q_{2}, Q_{S}) = P_{I_{1}}(Q_{1}|Q_{S})}
+    \label{eq:7}
+\end{equation}
+
+Tato rovnice vyjadřuje nezávislost evolučního zákona $\bm{P_{I_{1}}(Q_{1}|Q_{S})}$ na vstupech $\bm{I_{2}}$ a parametrech $\bm{Q_{2}}$. Jinými slovy pravděpodobnostní distribuce parametrů $\bm{Q_{1}}$ se vstupy $\bm{I_{1}}$ a $\bm{I_{2}}$ za předpokladu znalosti $\bm{Q_{2}}$ a $\bm{Q_{S}}$ je stejná jako ta samá pravděpodobnostní distribuce bez vstupů $\bm{I_{2}}$ a parametrů $\bm{Q_{2}}$. Když je tato podmínka splněna, říkáme, že $\bm{S}$ zastiňuje $\bm{1}$ od $\bm{2}$. U modelů splňujících KoP musí tato rovnost platit pro všechny jednoduše propojené, nepřekrývající se oblasti $\bm{1}$, $\bm{2}$ a $\bm{S}$, pro které platí, že oblast $\bm{S}$ zcela odděluje $\bm{1}$ od $\bm{2}$ a nikde není mizivě tenká.
+
+Bellova Lokalita (dále jen BL), použitá k odvození Bellovy nerovnosti, je silnější kritérium než KoP. BL má oproti KoP ještě 2 omezení:
+
+\begin{enumerate}
+    \item \textbf{Nezávislost na Budoucím Vstupu}
+     
+    Nezávislost na budoucím vstupu (dále jen NBV) zmenšuje zastiňovací oblast na část $\bm{S'}$, která neleží v budoucnosti obou oblastí $\bm{1}$ a $\bm{2}$ (viz Obrázek \ref{fig:8}).
+
+    NBV platí pro matematický model $\bm{P_{I}(Q)}$, jestliže existuje model $\bm{P'_{I'}(Q')}$ omezený časem $\bm{t'}$\footnote[5]{Horní časová hranice časoprostorových oblastí $\bm{1}$ a $\bm{2}$.}, který splňuje rovnici \ref{eq:8}. $\bm{I'}$ je množina všech vstupů v časech po $\bm{t'}$  a $\bm{Q'}$ je množina všech nevstupových parametrů v časech po $\bm{t'}$.
+
+    NBV říká, že $\bm{P_{I}(Q')}$ je nezávislý na budoucích vstupech.
+
+    \begin{equation}
+        \bm{P_{I}(Q') = P'_{I'}(Q')}
+        \label{eq:8}
+    \end{equation}
+    
+    \begin{figure}[ht]
+
+        \centering
+    
+        \begin{tikzpicture}
+            % S
+            \draw (2, 4) circle (1.3);
+            \draw (2, 4) circle (1);
+    
+            \draw[<-] (3.15, 4) -- (4, 3) node[below] (S') {$S'$};
+            
+            %1
+            \draw (2, 4) node  (1) {$1$};
+            \draw (2, 4) circle (0.5);
+            
+            %2
+            \draw (5.5, 3) node  (2) {$2$};
+            \draw (5.5, 3) circle (0.5);
+            
+            %hide future
+            \fill [white] (0.1,4.5) rectangle (6,6);
+            \draw[line width=0.5mm,dotted] (0.3,4.5) -- (4, 4.5);
+    
+            % Axes
+            \draw[->] (0, 0) -- (7,0) node[below] (x,y,z) {$x,y,z$};
+            \draw[->] (0, 0) -- (0,7) node[left] (t) {$t$};
+        \end{tikzpicture}
+        \caption{\label{fig:8}Nezávislost na budoucím vstupu. $\bm{S'}$ je oblast $\bm{S}$ omezena na minulost a přítomnost oblastí $\bm{1}$ a $\bm{2}$.}
+    \end{figure}
+    
+    \item \textbf{Platnost zastiňovací oblasti pro všechny referenční rámce (pozorovatele).}
+    
+
+
+%     Note that it is not sufficient to restrict the screening region to lie in the past lightcone of region 1; it must
+% completely screen 1 from the overlap of the past lightcones of 1 and 2
+    
+    \begin{figure}[ht]
+
+        \centering
+    
+        \begin{tikzpicture}
+           %S
+           
+           \draw (2, 4) circle (1.3);
+           \draw (2, 4) circle (1);
+            
+            %1
+            \draw (2, 4) node  (1) {$1$};
+            \draw (2, 4) circle (0.5);
+            
+            %2
+            \draw (5.5, 3) node  (2) {$2$};
+            \draw (5.5, 3) circle (0.5);
+            
+            %constrict to past lightcone
+            \node[isosceles triangle,
+    isosceles triangle apex angle=90,
+    draw,
+    anchor=apex,
+    draw=none,
+    fill=white,
+    minimum size =1.5cm] (T90)at (1.67,4.37){};
+            \node[isosceles triangle,
+    isosceles triangle apex angle=90,
+    draw,
+    anchor=apex,
+    draw=none,
+    fill=white,
+    rotate=180,
+    minimum size =1.5cm] (T90)at (2.33,4.37){};
+    \fill [white] (0.1,4.5) rectangle (6,6);
+
+            \draw[line width=0.5mm,dotted] (-1.5,1.2) -- (1.67, 4.37);
+            \draw[line width=0.5mm,dotted] (5.5,1.2) -- (2.33,4.37);
+            
+            %lightcone of 2
+            \draw[line width=0.5mm,dotted] (5.17, 3.37) -- (2, 0.2);
+            \draw[line width=0.5mm,dotted] (5.83, 3.37) -- (9,0.2);
+             % S arrow
+     
+             \draw[<-] (2.65, 3.1) -- (3.7, 2.5) node[below] (S'') {$S''$};
+
+
+            % Axes
+            \draw[->] (0, 0) -- (7,0) node[below] (x,y,z) {$x,y,z$};
+            \draw[->] (0, 0) -- (0,7) node[left] (t) {$t$};
+        \end{tikzpicture}
+        \caption{\label{fig:9}Bellova Lokalita s podmínkami Nezávislosti na Budoucím Vstupu a aplikovatelnosti zastiňovací oblasti ve všech referenčních rámcích.}
+    \end{figure}
+\end{enumerate}
+
+
 
 
 \subsubsection{Porušení Statistické Nezávislosti}
