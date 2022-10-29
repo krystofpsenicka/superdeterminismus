@@ -71,8 +71,52 @@
 
 %tikz for graphs and math figures
 \usepackage{tikz}
+\usepackage{etoolbox} % ifthen
+\usepackage[outline]{contour} % glow around text
+\usetikzlibrary{calc} % for adding up coordinates
+\usetikzlibrary{decorations.markings,decorations.pathmorphing}
+\usetikzlibrary{angles,quotes} % for pic (angle labels)
+\usetikzlibrary{arrows.meta} % for arrow size
+\usepackage{xfp} % higher precision (16 digits?)
 \usetikzlibrary{angles, quotes}
 \usetikzlibrary{shapes.geometric}
+
+%styles for spacetime diagrams
+\newcommand{\calI}{\mathscr{I}} %\mathcal
+\tikzset{>=latex} % for LaTeX arrow head
+\colorlet{myred}{red!85!black}
+\colorlet{myblue}{blue!80!black}
+\colorlet{mygreen}{green!80!black}
+\colorlet{mydarkred}{red!55!black}
+\colorlet{mylightred}{red!85!black!12}
+\colorlet{myfieldred}{mydarkred!5} % for S' background
+\colorlet{mydarkblue}{blue!50!black}
+\colorlet{mylightblue}{blue!50!black!30}
+\colorlet{mylightblue2}{myblue!10}
+\colorlet{mypurple}{blue!40!red!80!black}
+\colorlet{mydarkgreen}{green!50!black}
+\colorlet{mydarkpurple}{blue!40!red!50!black}
+\colorlet{myorange}{orange!40!yellow!95!black}
+\colorlet{mydarkorange}{orange!40!yellow!85!black}
+\colorlet{mybrown}{brown!20!orange!90!black}
+\colorlet{mydarkbrown}{brown!20!orange!55!black}
+%\colorlet{mylightbrown}{brown!70!red!70!black!12}
+\tikzstyle{world line}=[draw = gray,line width=0.3]
+\tikzstyle{world line t}=[draw = gray,line width=0.3]
+\tikzstyle{world line'}=[draw = black,line width=0.3]
+\tikzstyle{mysmallarr}=[-{Latex[length=3,width=2]},thin]
+\tikzstyle{mydashed}=[dash pattern=on 3 off 3]
+\tikzstyle{rod}=[mydarkbrown,draw=mydarkbrown,double=mybrown,double distance=2pt,
+                 line width=0.2,line cap=round,shorten >=1pt,shorten <=1pt]
+\tikzstyle{vector}=[->,line width=1,line cap=round]
+\tikzstyle{vector'}=[vector,shorten >=1.2]
+\tikzstyle{particle}=[mygreen,line width=0.9]
+\tikzstyle{photon}=[-{Latex[length=5,width=4]},black,line width=0.8,decorate,
+                    decoration={snake,amplitude=1.0,segment length=5,post length=5}]
+
+\def\tick#1#2{\draw[thick] (#1) ++ (#2:0.06) --++ (#2-180:0.12)}
+\def\tickp#1#2{\draw[thick,mydarkred] (#1) ++ (#2:0.06) --++ (#2-180:0.12)}
+\def\Nsamples{100}
 
 %new section new page
 \AddToHook{cmd/section/before}{\clearpage}
@@ -90,6 +134,7 @@
 \tableofcontents
 \clearpage
 \input{partials/Uvod.tex}
+
 \input{partials/Problemy\_kvant\_mech.tex}
 \input{partials/Bellova\_nerovnost.tex}
 \input{partials/Superdeterminismus.tex}

@@ -728,6 +728,41 @@
       \verb https://link.aps.org/doi/10.1103/RevModPhys.92.021002
       \endverb
     \endentry
+    \entry{SpRel}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen Phys.}
+      \field{title}{On the electrodynamics of moving bodies}
+      \field{volume}{17}
+      \field{year}{1905}
+      \field{dateera}{ce}
+      \field{pages}{891\bibrangedash 921}
+      \range{pages}{31}
+      \verb{urlraw}
+      \verb https://spaces-cdn.owlstown.com/blobs/rknwr9ocjval2hwwwvnia0ekme1v
+      \endverb
+      \verb{url}
+      \verb https://spaces-cdn.owlstown.com/blobs/rknwr9ocjval2hwwwvnia0ekme1v
+      \endverb
+    \endentry
     \entry{belltest:violation}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fcebd77354ede40cd9d40cf8f6c19236}{%
