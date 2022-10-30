@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1667037583 "main.bcf" "main.bbl" "main" 1667067603
+["biber main"] 1667113760 "main.bcf" "main.bbl" "main" 1667146698
   "citations.bib" 1667034410 6520 32c3af5939dd5a0fa65ae6c97c92dc62 ""
-  "main.bcf" 1667067603 108129 0eb1aae0e585eec4bc3c5c358f5ca768 "pdflatex"
+  "main.bcf" 1667146697 108129 0eb1aae0e585eec4bc3c5c358f5ca768 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1667067597 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1667067603
+["pdflatex"] 1667146691 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1667146698
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1667028898 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbi1200.pk" 1666767801 42728 e50bf65f391533cd3402c4f9eb4da27a ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1665827414 31952 a3ce515dcbffd8ea7a7933e6146049b3 ""
@@ -228,13 +228,13 @@
   "c:/škola/seminárka/latex/main.tex" 1667065958 4611 0d3bddadd8e8eee0654e7ebafa87418a ""
   "images/Two_channel.png" 1666509931 24606 d5afc0c17757ed20c819d07d4eb45be5 ""
   "images/probability-function.png" 1658306023 150968 652c1a984ee67aa5cfb51c76375db0aa ""
-  "main.aux" 1667067603 10080 a63b88b88be641d4c86e60817cce82ee "pdflatex"
-  "main.bbl" 1667037588 32479 8aa4c34757f36037e151059069f7d162 "biber main"
-  "main.run.xml" 1667067603 2308 59b4200a58c736eb4717279760849eff "pdflatex"
-  "main.toc" 1667067603 1213 2aa4787f22122d81ce211e355b8d30e6 "pdflatex"
-  "partials/Bellova_nerovnost.tex" 1666696737 7994 62a4837647d769d15968b814499505e1 ""
-  "partials/Problemy_kvant_mech.tex" 1666693841 9634 57a602c70b6e147a41f7efd14537f399 ""
-  "partials/Superdeterminismus.tex" 1667067595 18758 58b575b2f5b1a1b00b69509b41121857 ""
+  "main.aux" 1667146697 10113 5c9f0e83b975143da7b24cdf603a2a78 "pdflatex"
+  "main.bbl" 1667113765 32479 8aa4c34757f36037e151059069f7d162 "biber main"
+  "main.run.xml" 1667146697 2308 59b4200a58c736eb4717279760849eff "pdflatex"
+  "main.toc" 1667146697 1213 d6a970d6127322bfd1dea1f0422ad77a "pdflatex"
+  "partials/Bellova_nerovnost.tex" 1667130779 8036 2436035d956399d85d23a90e69541d03 ""
+  "partials/Problemy_kvant_mech.tex" 1667146609 9679 0e4f7b7ddc1f20110818c5ee1b5b45db ""
+  "partials/Superdeterminismus.tex" 1667146682 21252 acd24b112e45504608cec2b25ef76126 ""
   "partials/Uvod.tex" 1666870572 8097 244b07e98ae8bda26ec9b9906ffb4768 ""
   "partials/bib.tex" 1666860246 398 c0beab6c3ed7e87bc579274190f06604 ""
   (generated)
