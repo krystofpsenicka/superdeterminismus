@@ -3,6 +3,9 @@
 \usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
 
+%show the geometry of pages on top of every page
+\usepackage{showframe}
+
 %for bib overfull hbox
 \usepackage{xurl}
 
@@ -26,26 +29,13 @@
   {\usebibmacro{postnote}}
 %get rid of In: before journal title
 \renewbibmacro{in:}{}
-%change and to ampersand in authors
+%change and to ampersand in author citation
 \AtBeginBibliography{%
   \renewcommand*{\finalnamedelim}{%
     \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}%
     \addcomma\addspace\&\space}%
 }
-%change order to author year and keep number cit
-% \defbibenvironment{bibliography}
-%   {\list
-%      {\printtext[labelnumberwidth]{%
-%     \printfield{labelnumber}}}
-%      {\setlength{\labelwidth}{\labelnumberwidth}%
-%       \setlength{\leftmargin}{\labelwidth}%
-%       \setlength{\labelsep}{\biblabelsep}%
-%       \addtolength{\leftmargin}{\labelsep}%
-%       \setlength{\itemsep}{\bibitemsep}%
-%       \setlength{\parsep}{\bibparsep}}%
-%       \renewcommand*{\makelabel}[1]{\hss##1}}
-%   {\endlist}
-%   {\item}
+
 %
 %add the bib file
 \addbibresource{citations.bib}
@@ -138,6 +128,7 @@
 \input{partials/Problemy\_kvant\_mech.tex}
 \input{partials/Bellova\_nerovnost.tex}
 \input{partials/Superdeterminismus.tex}
+\input{partials/Protiargumenty.tex}
 
 
 \clearpage
