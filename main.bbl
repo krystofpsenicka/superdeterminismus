@@ -1079,8 +1079,8 @@
       \strng{authorbibnamehash}{4e7dc70c055939d83d45bef87ab4a3a3}
       \strng{authornamehash}{4e7dc70c055939d83d45bef87ab4a3a3}
       \strng{authorfullhash}{6c028f319dfc1cc8833dc4f7b0a6c1d7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -1102,19 +1102,19 @@
     \endentry
     \entry{BigBTest}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3aac1255a5dfb59fd527f014cae34881}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelimb BIG\bibnamedelimb Bell\bibnamedelima Test},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=d04e80faf1132ce8310aa6c78f4d5548}{%
+           family={The\bibnamedelimb BIG\bibnamedelimb Bell\bibnamedelimb Test\bibnamedelima Collaboration},
+           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={.},
+           giveni={.\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{3aac1255a5dfb59fd527f014cae34881}
-      \strng{fullhash}{3aac1255a5dfb59fd527f014cae34881}
-      \strng{bibnamehash}{3aac1255a5dfb59fd527f014cae34881}
-      \strng{authorbibnamehash}{3aac1255a5dfb59fd527f014cae34881}
-      \strng{authornamehash}{3aac1255a5dfb59fd527f014cae34881}
-      \strng{authorfullhash}{3aac1255a5dfb59fd527f014cae34881}
+      \strng{namehash}{d04e80faf1132ce8310aa6c78f4d5548}
+      \strng{fullhash}{d04e80faf1132ce8310aa6c78f4d5548}
+      \strng{bibnamehash}{d04e80faf1132ce8310aa6c78f4d5548}
+      \strng{authorbibnamehash}{d04e80faf1132ce8310aa6c78f4d5548}
+      \strng{authornamehash}{d04e80faf1132ce8310aa6c78f4d5548}
+      \strng{authorfullhash}{d04e80faf1132ce8310aa6c78f4d5548}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
