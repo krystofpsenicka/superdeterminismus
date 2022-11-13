@@ -1,16 +1,16 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [1] Config.pm:309> INFO - Logfile is 'main.blg'
-[331] biber-MSWIN64:340> INFO - === 
-[420] Biber.pm:418> INFO - Reading 'main.bcf'
-[733] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[779] Biber.pm:4401> INFO - Processing section 0
-[809] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
-[883] bibtex.pm:1713> INFO - LaTeX decoding ...
-[935] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
-[1190] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1190] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1191] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
-[1234] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1257] bbl.pm:757> INFO - Output to main.bbl
-[1257] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[1257] Biber.pm:132> INFO - WARNINGS: 1
+[158] biber-MSWIN64:340> INFO - === 
+[207] Biber.pm:418> INFO - Reading 'main.bcf'
+[379] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[402] Biber.pm:4401> INFO - Processing section 0
+[420] Biber.pm:4592> INFO - Looking for bibtex file 'citations.bib' for section 0
+[485] bibtex.pm:1713> INFO - LaTeX decoding ...
+[533] bibtex.pm:1518> INFO - Found BibTeX data source 'citations.bib'
+[825] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[826] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[826] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[861] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[903] bbl.pm:757> INFO - Output to main.bbl
+[903] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[903] Biber.pm:132> INFO - WARNINGS: 1
