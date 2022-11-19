@@ -1452,6 +1452,53 @@
       \verb https://philarchive.org/archive/BOUPOP-3
       \endverb
     \endentry
+    \entry{ArgSciMeth:1}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b5bc54eaf43aa6ec6966c23cf46280b5}{%
+           family={Shimony},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92ebb611adc4ae7301bb2211e92c3e12}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70c86069099175d056d7dd8872698f46}{%
+           family={Clauser},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \strng{fullhash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \strng{bibnamehash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \strng{authorbibnamehash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \strng{authornamehash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \strng{authorfullhash}{0046bc89d3cafb81bf939c1ef863fe84}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{13}
+      \field{journaltitle}{EPISTEMOLOGICAL LETTERS}
+      \field{title}{Comment on "The Theory of Local Beables"}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://curate.nd.edu/downloads/cz30pr79d3j
+      \endverb
+      \verb{url}
+      \verb https://curate.nd.edu/downloads/cz30pr79d3j
+      \endverb
+    \endentry
     \entry{supdet:guide}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dd9161582dd1a1a395e916eaf78edf4c}{%

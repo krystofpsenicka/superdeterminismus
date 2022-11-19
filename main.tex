@@ -15,7 +15,9 @@
 %biblatex bibliography
 \usepackage{csquotes}
 \usepackage[backend = biber, sorting = none, giveninits, style = authoryear, defernumbers = true, uniquename = init]{biblatex}
+%name order
 \DeclareNameAlias{default}{family-given}
+\DeclareNameAlias{sortname}{family-given}
 %add comma between author and year in citations
 \renewcommand*{\nameyeardelim}{\addcomma\space}
 %change url: to dostupné z
@@ -108,6 +110,10 @@
 \def\tickp#1#2{\draw[thick,mydarkred] (#1) ++ (#2:0.06) --++ (#2-180:0.12)}
 \def\Nsamples{100}
 
+%add date
+\usepackage{datetime}
+\newdateformat{yeardate}{\THEYEAR}
+
 %new section new page
 \AddToHook{cmd/section/before}{\clearpage}
 
@@ -115,21 +121,51 @@
 \title{Superdeterminismus}
 \author{Kryštof Pšenička}
 
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \let \footnote \thanks
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=230pt]{images/gymck-logo.png}
+\end{figure}
+    {\huge \textbf{SEMINÁRNÍ PRÁCE} \par}%
+    \vskip 2.5em%
+    {\Large
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\Large \textbf{\@title} \par}%
+    \vskip 6em%
+    {\large Vedoucí seminární práce: Mgr. Ivana Špilínková \par}%
+    \vskip 5em%
+    {\yeardate\today}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
+\makeatother
 
 
 
 \begin{document}
-
 \maketitle
+\thispagestyle{empty}
 \tableofcontents
+\thispagestyle{empty}
 \clearpage
+\pagenumbering{arabic} 
 \input{partials/Uvod.tex}
 
 \input{partials/Problemy\_kvant\_mech.tex}
 \input{partials/Bellova\_nerovnost.tex}
 \input{partials/Superdeterminismus.tex}
 \input{partials/Protiargumenty.tex}
-
+\input{partials/Zaver.tex}
 
 \clearpage
 \input{partials/bib.tex}

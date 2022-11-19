@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  13 NOV 2022 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  19 NOV 2022 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,7 +663,60 @@ Package: xfp 2022-06-22 L3 Floating point unit
 File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
+Package: fmtcount 2020/01/30 v3.07
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+)
+\XKV@depth=\count433
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count434
 ))
+\c@padzeroesN=\count435
+\fc@tmpcatcode=\count436
+\@DT@modctr=\count437
+\@ordinalctr=\count438
+\@orgargctr=\count439
+\@strctr=\count440
+\@tmpstrctr=\count441
+\@DT@loopN=\count442
+\@DT@X=\count443
+) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count444
+\@month=\count445
+\@year=\count446
+\c@HOUR=\count447
+\c@HOURXII=\count448
+\c@MINUTE=\count449
+\c@TOHOUR=\count450
+\c@TOMINUTE=\count451
+\c@SECOND=\count452
+\currenthour=\count453
+\currentminute=\count454
+\currentsecond=\count455
+Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
+\@dtctr=\count456
+\dayofyear=\count457
+\dayofweek=\count458
+LaTeX Info: Redefining \today on input line 736.
+ (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/datetime\dt-czech.def
+File: dt-czech.def 2013/09/10
+LaTeX Info: Redefining \dateczech on input line 86.
+)
+\dt@a=\toks40
+\dt@b=\toks41
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -671,20 +724,20 @@ Package csquotes Info: Redefining alias 'default' -> 'czech'.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 Package biblatex Info: Trying to load language 'czech'...
 Package biblatex Info: ... file 'czech.lbx' found.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\czech.lbx
@@ -698,21 +751,21 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 121.
-Package biblatex Info: Reference segment=0 on input line 121.
+Package biblatex Info: Reference section=0 on input line 155.
+Package biblatex Info: Reference segment=0 on input line 155.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count433
+\scratchcounter=\count459
 \scratchdimen=\dimen276
 \scratchbox=\box66
-\nofMPsegments=\count434
-\nofMParguments=\count435
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count436
+\nofMPsegments=\count460
+\nofMParguments=\count461
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count462
 \MPscratchDim=\dimen277
-\MPnumerator=\count437
-\makeMPintoPDFobject=\count438
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count463
+\makeMPintoPDFobject=\count464
+\everyMPtoPDFconversion=\toks43
 ) (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -753,46 +806,51 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<images/gymck-logo.png, id=4, 291.33844pt x 232.61906pt>
+File: images/gymck-logo.png Graphic file (type png)
+<use images/gymck-logo.png>
+Package pdftex.def Info: images/gymck-logo.png  used on input line 156.
+(pdftex.def)             Requested size: 230.0pt x 183.64635pt.
 [1
 
-{C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc)
+{C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/gymck-logo.png>] (main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
  [2
 
-] (partials/Uvod.tex [3
+] (partials/Uvod.tex [1
 
 
-] [4]
-<images/probability-function.png, id=36, 162.63766pt x 105.69035pt>
+] [2]
+<images/probability-function.png, id=40, 162.63766pt x 105.69035pt>
 File: images/probability-function.png Graphic file (type png)
 <use images/probability-function.png>
 Package pdftex.def Info: images/probability-function.png  used on input line 46.
 (pdftex.def)             Requested size: 300.0pt x 194.96928pt.
- [5
+ [3
 
- <./images/probability-function.png>]) (partials/Problemy_kvant_mech.tex [6] [7
+ <./images/probability-function.png>]) (partials/Problemy_kvant_mech.tex [4] [5
 
-] [8
+] [6
 
-] [9
+] [7
 
-]) (partials/Bellova_nerovnost.tex [10] [11
+]) (partials/Bellova_nerovnost.tex [8] [9
 
 ]
-<images/Two_channel.png, id=63, 559.3698pt x 199.947pt>
+<images/Two_channel.png, id=66, 559.3698pt x 199.947pt>
 File: images/Two_channel.png Graphic file (type png)
 <use images/Two_channel.png>
 Package pdftex.def Info: images/Two_channel.png  used on input line 29.
 (pdftex.def)             Requested size: 300.0pt x 107.23753pt.
- [12
+ [10
 
- <./images/Two_channel.png (PNG copy)>] [13]) (partials/Superdeterminismus.tex [14
+ <./images/Two_channel.png (PNG copy)>] [11]) (partials/Superdeterminismus.tex [12
 
-] [15
+] [13
 
-] [16] [17] [18
+] [14] [15] [16
 
 ]  Running i/N=1/5, x=0.35999...
  Running i/N=2/5, x=0.71997...
@@ -809,15 +867,21 @@ Package pdftex.def Info: images/Two_channel.png  used on input line 29.
  Running i/N=3/5, x=1.20735...
  Running i/N=4/5, x=1.6098...
  Running i/N=5/5, x=2.01225...
-[19
+[17
 
-] [20]) (partials/Protiargumenty.tex [21
+] [18]) (partials/Protiargumenty.tex [19
 
-] [22] [23
+] [20] [21
 
-] [24
+] [22
 
-] [25]) [26] (partials/bib.tex
+] [23
+
+] [24]) (partials/Zaver.tex [25
+
+]) [26
+
+] (partials/bib.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
  (C:\Users\kryst\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -830,17 +894,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25649 strings out of 478338
- 529738 string characters out of 2836700
- 1233377 words of memory out of 3000000
- 43618 multiletter control sequences out of 15000+600000
- 491120 words of font info for 82 fonts, out of 8000000 for 9000
+ 26576 strings out of 478338
+ 545943 string characters out of 2836700
+ 1261036 words of memory out of 3000000
+ 44509 multiletter control sequences out of 15000+600000
+ 491895 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,89p,1263b,1728s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (29 pages, 568904 bytes).
+ 84i,10n,89p,1704b,1728s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\kryst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kryst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (31 pages, 602634 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
+ 744 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
