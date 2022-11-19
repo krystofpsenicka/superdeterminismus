@@ -121,13 +121,13 @@
 \title{Superdeterminismus}
 \author{Kryštof Pšenička}
 
+%title page
 \makeatletter
 \def\@maketitle{%
   \newpage
   \null
   \vskip 2em%
   \begin{center}%
-  \let \footnote \thanks
   \begin{figure}[ht]
     \centering
     \includegraphics[width=230pt]{images/gymck-logo.png}
@@ -150,10 +150,38 @@
   \vskip 1.5em}
 \makeatother
 
+%acknowledgements
+\makeatletter
+\def\acknowledgements{%
+  \newpage
+  \null
+  \vskip 2em%
+    {\large \textbf{Poděkování} \par}
+    {Chtěl bych poděkovat své vedoucí seminární práce Mgr. Ivaně Špilínkové za odborné vedení, za pomoc, za gramatickou kontrolu a rady při zpracování této práce.}
+  }%
+\makeatother
+
+%sworn declaration
+\makeatletter
+\def\makesworndec{%
+  \newpage
+  \null
+  \vskip 40em%
+    {Prohlašuji, že jsem tuto seminární práci vypracoval samostatně a výhradně\par s použitím citovaných pramenů, literatury a dalších odborných zdrojů. \par}%
+    \vskip 5em%
+    {V ..................... dne .....................}%
+  \par
+  \vskip 1.5em}
+\makeatother
+
 
 
 \begin{document}
 \maketitle
+\thispagestyle{empty}
+\makesworndec
+\thispagestyle{empty}
+\acknowledgements
 \thispagestyle{empty}
 \tableofcontents
 \thispagestyle{empty}
