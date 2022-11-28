@@ -2,18 +2,18 @@
     \subsection{Problém měření}
     (Zpracováno podle videa \citetitle*{measprob}, \cite{measprob})
 
-Kodaňská interpretace kvantové mechaniky má tři části: Schrödingerovu vlnovou rovnici, postulát o měření a Bornovo pravidlo.
+Kodaňská (současná) interpretace kvantové mechaniky se skládá ze tří částí: Schrödingerova vlnová rovnice, postulát o měření a Bornovo pravidlo.
 
 Schrödingerova vlnová rovnice popisuje každou změnu vlnové funkce v čase kromě procesu měření. Tento proces chápeme jako interakci vlnové funkce měřeného systé\-mu s jiným (měřícím) systémem, která v měřícím systému zanechá informaci o velikosti určité veličiny měřeného systému. Když dojde k takové interakci, musíme použít postulát o měření, aby stav naší vlnové funkce souhlasil s realitou.
 
-Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružnice. V úvodu jsem představil koncept vlnové funkce používaný k vyjádření stavu kvantového systému. Když sledujeme binární veličinu kvantového systému (např. spin kvantové částice), můžeme využít znázorně\-ní používaného v oboru Kvantového počítání k ilustraci stavu kvantového bitu (qubit). Stav qubitu se znázorňuje jako vektor $\bm{|\psi\rangle}$ na jednotkové kružnici v soustavě souřadnic, kde osa x je jeden stav qubitu (např. spin nahoru, označovaný podobně jako u bitů jako $\bm{|1\rangle}$) a osa y je stav druhý (např. spin dolů, jako $\bm{|0\rangle}$) (viz Obrázek \ref{fig:3}). Vektor $\bm{|\psi\rangle}$ zapisujeme jako součet možných výsledků (viz Rovnice (\ref{eq:3})), přičemž druhé mocniny koeficientů $\bm{\alpha}$ a $\bm{\beta}$ určují pravděpodobnost daného výsledku. 
+Postulát o měření můžeme jednoduše vysvětlit pomocí jednotkové kružnice. V úvodu jsem představil koncept vlnové funkce používaný k vyjádření stavu kvantového systému. Když sledujeme binární veličinu kvantového systému, např. spin kvantové částice, můžeme využít znázorně\-ní používaného v oboru Kvantového počítání k ilustraci stavu kvantového bitu (qubitu). Stav qubitu se znázorňuje vektorem $\bm{|\psi\rangle}$ na jednotkové kružnici v soustavě souřadnic, kde osa x je jeden stav qubitu (např. spin nahoru, označovaný podobně jako u bitů jako $\bm{|1\rangle}$) a osa y je stav druhý (např. spin dolů, jako $\bm{|0\rangle}$) (viz Obrázek \ref{fig:3}). Vektor $\bm{|\psi\rangle}$ zapisujeme jako součet možných výsledků (viz Rovnice (\ref{eq:3})), přičemž druhé mocniny koeficientů $\bm{\alpha}$ a $\bm{\beta}$ určují pravděpodobnost daného výsledku. 
 
 \begin{equation}
     \bm{|\psi\rangle = \alpha|1\rangle + \beta|0\rangle}
     \label{eq:3}
 \end{equation}
 
-Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{\alpha^2 + \beta^2 = 1}$. Takto se také počítá absolutní hodnota vektoru $\bm{|\psi\rangle}$, která je tedy vždy 1. To znamená, že délka vektoru $\bm{|\psi\rangle}$ je vždy 1, a proto používáme jednotkovou kružnici. 
+Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{\alpha^2 + \beta^2 = 1}$. Stejně se počítá absolutní hodnota vektoru $\bm{|\psi\rangle}$. To znamená, že délka vektoru $\bm{|\psi\rangle}$ je vždy 1, a proto používáme jednotkovou kružnici. 
 
 \clearpage
 
@@ -48,7 +48,7 @@ Součet pravděpodobností je vždy 1, takže pro koeficienty platí vztah $\bm{
 
 V praxi se používá Blochova sféra (jednotková sféra), jelikož koeficienty $\bm{\alpha}$ a $\bm{\beta}$ jsou komplexní čísla, která mají navíc imaginární rozměr, což znamená, že $\bm{|\psi\rangle}$ je trojrozměrný vektor. Nám k ilustraci postulátu o měření postačí 2 rozměry.
 
-Podle postulátu o měření máme při měření vektor $\bm{|\psi\rangle}$ aktualizovat promítnutím na osu změře\-ného výsledku a následně ho prodloužit zpět na délku 1.
+Podle postulátu o měření máme při měření vektor $\bm{|\psi\rangle}$ aktualizovat promítnutím na osu změře\-ného výsledku a následným prodloužením zpět na délku 1.
 
 Např. když budeme měřit stav qubitu a změříme ho ve stavu $\bm{|1\rangle}$, musíme vektor aktualizovat, aby správně popisoval reálný stav qubitu. V tomto případě musíme vektor promítnout na osu změřeného stavu (osu $\bm{|1\rangle}$) (viz Obrázek \ref{fig:4}). A poté musíme aktualizovat pravděpodobnost prodloužením vektoru zpět na délku 1 (viz Obrázek \ref{fig:5}).
 
@@ -131,14 +131,14 @@ Schrödingerova rovnice je lineární. To znamená, že pokud za funkci $\bm{\ps
     \label{eq:5}
 \end{equation}
 
-Problém měření spočívá v nelineárnosti postulátu o měření. Tuto nelineárnost může\-me jednoduše dokázat pomocí superpozice. Pokud budeme měřit částici popsanou vlnovou funkcí $|\psi\rangle$ (např. $|1\rangle$), změříme ji ve stejném stavu $|1\rangle$. Problém nastává v případě, kdy měříme částici ve stavu superpozice (např. $|\psi\rangle = \sqrt{\frac{1}{2}}|0\rangle + \sqrt{\frac{1}{2}}|1\rangle$), jelikož ji nezměříme jako tuto superpozici, ale jako jeden ze stavů superpozice ($|0\rangle$ nebo $|1\rangle$), každý s pravděpodobností 50\%.
+Problém měření spočívá v nelineárnosti postulátu o měření. Tuto nelineárnost může\-me jednoduše dokázat pomocí superpozice. Pokud budeme měřit částici popsanou vlnovou funkcí $|\psi\rangle = |1\rangle$, změříme ji ve stejném stavu ($|1\rangle$). Problém nastává v případě, kdy měříme částici ve stavu superpozice (např. $|\psi\rangle = \sqrt{\frac{1}{2}}|0\rangle + \sqrt{\frac{1}{2}}|1\rangle$), jelikož nezměříme tuto superpozici, ale jen jeden ze stavů superpozice ($|0\rangle$ nebo $|1\rangle$), každý s pravděpodobností 50\%.
 
-Tato neshodnost Schrödingerovy rovnice a postulátu o měření znamená, že podle moderní kvantové mechaniky se nástroje na měření chovají podle jiných zákonů než elementární částice. Aby toto dávalo smysl, museli bychom opustit předpoklad redukcionismu, podle kterého se dá chování makroskopického objektu derivovat z chování jeho součástí. Museli bychom vytvořit teorii, která by definovala hranici, za kterou se už nemůžeme řídit redukcionismem. Touto možností se nebudeme zaobírat, jelikož redukcionismus je jedním z nejlépe podložených předpokladů vědy\footnote[2]{Předpoklad redukcionismu je podporován každým experimentem, který byl kdy proveden. Je těžké najít lépe podložený vědecký fakt.}. 
+Neshodnost Schrödingerovy rovnice a postulátu o měření znamená, že podle moderní kvantové mechaniky se nástroje na měření chovají podle jiných zákonů než elementární částice. Aby toto dávalo smysl, museli bychom opustit předpoklad redukcionismu, podle něhož se dá chování makroskopického objektu derivovat z chování jeho součástí. Museli bychom vytvořit teorii, která by definovala hranici redukcionismu. Touto možností se nebudeme zaobírat, jelikož redukcionismus je jedním z nejlépe podložených předpokladů vědy\footnote[2]{Předpoklad redukcionismu je podporován každým experimentem, který byl kdy proveden. Je těžké najít lépe podložený vědecký fakt.}. 
 
 \subsection{Problém unifikace} 
 (Zpracováno podle článku \cite{unifprob})
 
-Konečným cílem fyziky je teorie všeho, popisující všechny jevy ve vesmíru. Doposud jsme všechny známé přírodní zákonitosti zjednodušili do dvou velice odlišných teorií, obecné relativity a kvantové mechaniky. Obecná relativita je teorie velkých rozměrů a energií. Dokáže popsat pohyb nebeských těles s nevídanou přesností.
+Konečným cílem fyziky je teorie všeho popisující všechny jevy ve vesmíru. Doposud jsme všechny známé přírodní zákonitosti zjednodušili do dvou velice odlišných teorií: obecné relativity a kvantové mechaniky. Obecná relativita je teorie velkých rozměrů a energií. Dokáže popsat pohyb nebeských těles s nevídanou přesností.
 
-Podle obecné teorie relativity se v přítomnosti hmoty ohýbá časoprostor, zatímco nepřítomnost hmoty způsobuje plochý časoprostor. Problém vzniká v subatomárních měřítcích, kde převládají kvantové fluktuace způsobené Heisenbergovým principem neurčitosti\footnote[3]{Podle Heisenbergova principu neurčitosti vznikají i v perfektním vakuu páry virtuálních částic (částice a antičástice), které se anihilují krátce po jejich vzniku.}, které vedou k radikálně zvrásněnému časoprostoru v protikladu k plo\-chému časoprostoru obecné relativity. K dalším nesouladům těchto teorií patří neschopnost obecné relativity řešit hmotné body, které vytváří nekonečné zakřivení časoprostoru, a také nereálnost a nelokálnost kvantové mechaniky, které ujasníme v kapitole 3.
+Podle obecné teorie relativity se v přítomnosti hmoty ohýbá časoprostor, zatímco nepřítomnost hmoty způsobuje plochý časoprostor. Problém vzniká v subatomárních měřítcích. Zde převládají kvantové fluktuace způsobené Heisenbergovým principem neurčitosti\footnote[3]{Podle Heisenbergova principu neurčitosti vznikají i v perfektním vakuu páry virtuálních částic (částice a antičástice), které se anihilují krátce po jejich vzniku.}, jenž vedou k radikálně zvrásněnému časoprostoru v protikladu k plo\-chému časoprostoru obecné relativity. K dalším nesouladům patří neschopnost obecné relativity řešit nekonečné zakřivení časoprostoru, způsobeno hmotnými body a nereálnost a nelokálnost kvantové mechaniky (vysvětleny v kapitole 2).
 
