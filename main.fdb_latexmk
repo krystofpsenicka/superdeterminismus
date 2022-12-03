@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1669589632 "main.bcf" "main.bbl" "main" 1669589707
+["biber main"] 1670055754 "main.bcf" "main.bbl" "main" 1670068300
   "citations.bib" 1668851736 10030 15bf5569b97bf9fe31a9d9e830afde6f ""
-  "main.bcf" 1669589706 109051 e819a758454791122b26542657e61e3f "pdflatex"
+  "main.bcf" 1670068299 109051 e819a758454791122b26542657e61e3f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669589698 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1669589707
+["pdflatex"] 1670068291 "c:/škola/seminárka/latex/main.tex" "main.pdf" "main" 1670068300
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1668943195 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbi1200.pk" 1666764201 42728 3f431702dfb9b191d6615eae693d4b8f ""
   "C:/Users/kryst/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1665823814 31952 a3ce515dcbffd8ea7a7933e6146049b3 ""
@@ -263,19 +263,19 @@
   "images/Two_channel.png" 1666506331 24606 938bf8e07aaa1dcdbf02fc58166debc1 ""
   "images/gymck-logo.png" 1668858776 13895 5041d4dc6359131b83d12fb8bf8bcb95 ""
   "images/probability-function.png" 1658302423 150968 4341adaf7fcf018ec51d9bfb37ce61a4 ""
-  "main.aux" 1669589706 15815 48e9cefc3957a79a4a588c75f6d38607 "pdflatex"
-  "main.bbl" 1669589676 60900 7b62b4bead183c9ff268574ee1581c6b "biber main"
-  "main.out" 1669589706 3717 306af0bf6e43a0fde8a2527c24896db2 "pdflatex"
-  "main.run.xml" 1669589706 2308 59b4200a58c736eb4717279760849eff "pdflatex"
+  "main.aux" 1670068299 15815 8b39ada2cf8728b80fdbfef0d2e00ac4 "pdflatex"
+  "main.bbl" 1670055761 60900 7b62b4bead183c9ff268574ee1581c6b "biber main"
+  "main.out" 1670068299 3717 306af0bf6e43a0fde8a2527c24896db2 "pdflatex"
+  "main.run.xml" 1670068299 2308 59b4200a58c736eb4717279760849eff "pdflatex"
   "main.tex" 1669583632 5285 4b727e47ffbc3aa3b58049639023d73f ""
-  "main.toc" 1669589706 2143 c9335e8d7803a12d09eaf09529ac6f9c "pdflatex"
-  "partials/Bellova_nerovnost.tex" 1669585851 8067 54eab6d110aca3ff731d52060fa23464 ""
-  "partials/Problemy_kvant_mech.tex" 1669583529 9586 b783ae3ddd0d683c55d9ec3b1b76582b ""
-  "partials/Protiargumenty.tex" 1669587726 12746 aff348631b6259d742f61739a5a44377 ""
-  "partials/Superdeterminismus.tex" 1669588973 21283 e6d8009c6a1f1247a84941d36c5a0713 ""
+  "main.toc" 1670068299 2143 c9335e8d7803a12d09eaf09529ac6f9c "pdflatex"
+  "partials/Bellova_nerovnost.tex" 1670056490 8069 69b00bcf8cee157f39e46da9e756c76c ""
+  "partials/Problemy_kvant_mech.tex" 1670054714 9641 9c746f8b1af6d59211d839277bc6a314 ""
+  "partials/Protiargumenty.tex" 1670067648 12601 be4f4eb90106c2bf05988b23fffc7673 ""
+  "partials/Superdeterminismus.tex" 1670057839 21250 a48b9c77483a65fba7250ade5807a800 ""
   "partials/Uvod.tex" 1669564450 7984 b4e665b23b3ae624ca5ddc316681abeb ""
-  "partials/Vyhled.tex" 1669589423 4328 d168a217a34039f48984ee6b8aab309b ""
-  "partials/Zaver.tex" 1669589620 1594 00ba27d978e2acb27a7656f347e7ac70 ""
+  "partials/Vyhled.tex" 1670067658 4306 ed21b66ad585bcb46c463bd24e15b006 ""
+  "partials/Zaver.tex" 1670068289 1570 6a1b8119d43b55cdd88a58001fdea30e ""
   "partials/bib.tex" 1667724776 421 2321ec25b1ae51050eac08d5bc6f76d6 ""
   (generated)
   "main.aux"

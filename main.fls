@@ -1197,6 +1197,7 @@ INPUT partials\Problemy_kvant_mech.tex
 INPUT .\partials\Problemy_kvant_mech.tex
 INPUT partials\Problemy_kvant_mech.tex
 INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\partials\Bellova_nerovnost.tex
 INPUT partials\Bellova_nerovnost.tex
 INPUT .\partials\Bellova_nerovnost.tex
@@ -1214,7 +1215,6 @@ INPUT partials\Superdeterminismus.tex
 INPUT .\partials\Superdeterminismus.tex
 INPUT partials\Superdeterminismus.tex
 INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
-INPUT C:\Users\kryst\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\partials\Protiargumenty.tex
 INPUT partials\Protiargumenty.tex
 INPUT .\partials\Protiargumenty.tex
@@ -1243,12 +1243,12 @@ INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\kryst\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
